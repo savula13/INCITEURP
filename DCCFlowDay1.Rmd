@@ -1,0 +1,106 @@
+---
+title: "DCCflow2"
+author: "Saipranav Avula"
+date: "6/4/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Packages:
+```{r, include=FALSE}
+library(readr)
+library(dplyr)
+library(networkD3)
+```
+Loads courses from csv and filters to DCC on Day 1
+```{r}
+courses <- read_csv("~/Downloads/201909_long.csv")
+
+dcc <- courses %>%
+  filter(substr(location,1,6) == "DARRIN") %>% filter(day == 1)
+
+DCC_rooms <- dcc %>%
+  group_by(location, start, end) %>%
+  summarize(flow = sum(seats_taken))
+  DCC_rooms[with(DCC_rooms, order(start,end)),]
+```
+Creates entry and exit nodes based on unique times
+```{r}
+entry <- DCC_rooms %>% 
+  group_by(start) %>%
+  summarize(flow = sum(flow))
+
+exit <- DCC_rooms %>%
+  group_by(end) %>%
+  summarize(flow = sum(flow))
+
+entry$location <- paste("ENTRY", "_", entry$start)
+exit$location <- paste("EXIT", "_", exit$end)
+exit$start <- as.character((as.numeric(exit$end)+50))
+```
+Full list of nodes is created with rooms and transitions
+```{r}
+dccnodes <- DCC_rooms%>%
+  ungroup() %>%
+  select(location)
+
+entrynodes <- entry %>%
+  ungroup() %>%
+  select(location)
+
+exitnodes <- exit %>%
+  ungroup() %>%
+  select(location)
+
+dccnodes <- full_join(dccnodes, entrynodes)
+dccnodes <- full_join(dccnodes, exitnodes)
+dccnodes <- unique(dccnodes["location"])
+dccnodes
+```
+Links are created between rooms and transitions
+```{r}
+entry_links <-entry %>%
+  select(location, start)
+
+entry_links <- entry_links %>%
+  rename(source = location)
+
+DCC_rooms <- DCC_rooms %>%
+  rename(target = location)
+
+entry_links <- left_join(DCC_rooms, entry_links, by = "start")
+
+entry_links %>%
+  arrange(start)
+
+exit_links <- exit %>%
+  select(location, end)
+
+exit_links <- exit_links %>%
+  rename(target = location)
+
+DCC_rooms <- DCC_rooms %>%
+  rename(source = target)
+
+exit_links <- left_join(DCC_rooms, exit_links, by = "end")
+exit_links %>% arrange(end)
+links <- full_join(entry_links, exit_links) %>% arrange(start, end)
+links <- links %>% select(source, target, flow)
+dccnodes
+links$IDsource <- match(links$source, dccnodes$location)-1
+links$IDtarget <- match(links$target, dccnodes$location)-1
+links
+```
+Creating the Sankey Plot
+```{r}
+p <- sankeyNetwork(Links = links, Nodes = dccnodes,
+                     Source = "IDsource", Target = "IDtarget",
+                     Value = "flow", NodeID = "location", 
+                     sinksRight=FALSE)
+p
+```
+
+
+```
