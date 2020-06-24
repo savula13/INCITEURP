@@ -1,0 +1,183 @@
+---
+title: "ScheduleGenAPP"
+author: "Saipranav Avula"
+date: "6/15/2020"
+output: html_document
+---
+```{r}
+library(readr)
+library(tidyverse)
+library(networkD3)
+library(shiny)
+num_students <- 75
+
+classes <- data.frame( loc = c("DCC308", "SAGE5101", "DCC318","SAGE2303", "RCKTTS203", "LALLY102", "TROY101","OTHER"), cap = c(200, 150, 100, 75, 40, 30, 60, 210))
+
+cleanedYacs <- read_csv("~/InciteURP/FallSchedule/cleanedYacs.csv")
+
+days <- cleanedYacs %>%
+  group_by(day)
+days<- group_split(days)
+
+day1 <- data.frame(days[1]) %>%
+  select(start, end, day) %>%
+  arrange(start) %>%
+  distinct(start) %>%
+  ungroup()
+day1
+
+classes$perc <- classes$cap / sum(classes$cap)
+#classes
+l <- replicate(num_students, expr = sample(classes$loc, 4, prob = c(classes$perc)), simplify = FALSE)
+df <- data.frame(matrix(unlist(l), nrow=length(l), byrow=T))
+df$student <- 1:num_students
+df <- df %>% rename(t1000 = X1, t1200 = X2,
+                    t1400 = X3, t1600 = X4,)
+write.csv(df, "schedules_wide.csv")
+```
+
+```{r}
+df_long <- df %>%
+  gather(start, loc, 1:4)
+
+df_long <- df_long %>%
+  group_by(start)
+df_long <- df_long %>%
+  mutate(loc = paste(loc, "_", substr(start, 2, 5)))
+
+write.csv(df, "schedules_long.csv")
+
+time_split <- group_split(df_long)
+
+nodes = c()
+for(i in time_split){
+  nodes <- c(nodes, i$loc)
+}
+nodes <- unique(nodes)
+
+links <- left_join(data.frame(time_split[1]), data.frame(time_split[2]), by = "student") %>%
+  select(loc.x, loc.y, student) %>%
+  rename(source = loc.x, target = loc.y)
+
+for(i in 2:(length(time_split)-1)){
+  temp_links = data.frame()
+  temp_links <- left_join(data.frame(time_split[i]), data.frame(time_split[i+1]), by = "student") %>%
+  select(loc.x, loc.y, student) %>%
+  rename(source = loc.x, target = loc.y)
+  temp_links
+  links <- full_join(links, temp_links)
+}
+
+nodes <- data.frame(c(nodes))
+
+write.csv(df, "nodes.csv")
+
+links$IDsource <- match(links$source, nodes$c.nodes.)-1
+links$IDtarget <- match(links$target, nodes$c.nodes.)-1
+links$value <- 10
+
+nodes$group <- "0"
+
+df_long <- df_long %>%
+  spread(start,loc)
+
+matches <- apply(df_long[,2:5], 1, function(x) match(x, nodes$c.nodes.))
+matches <- data.frame(matches)
+
+
+ans <- sapply(matches, function(x) sum(matches[15]==x))
+links$group <- as.character(ans)
+
+
+colors <- colorRampPalette(c("green", "red"))(5)
+
+shared_classes <- links %>%
+  select(student, group) %>%
+  unique() %>%
+  group_by(group)
+
+num_shared = data.frame(shared_classes = as.integer(0:4), num = integer(5))
+group_shared <- (group_split(shared_classes))
+for(i in 1:length(group_shared)){
+  g <- group_shared[[i]]
+  print(i)
+  num_shared[as.numeric(g[1,]$group)+1,]$num <- nrow(g)
+}
+num_shared
+
+my_color <- 'd3.scaleOrdinal() .domain(["0","1","2","3","4"]) .range(["#BEBEBE", "#CE8E8E", "#DE5F5F", "#EE2F2F", "#FF0000"])'
+
+write.csv(links, "links.csv") 
+
+p <- sankeyNetwork(Links = links, Nodes = nodes,
+                      Source = "IDsource", Target = "IDtarget",
+                      Value = "value", NodeID = "c.nodes.")
+p
+
+```
+
+Display the App
+```{r}
+ui <- fluidPage(
+  fluidRow(
+    column(4,
+  
+      # Copy the line below to make a slider range 
+      numericInput("num", label = h3("Student"), value = 1)
+    ),
+    column(4,
+            checkboxGroupInput("checkGroup", label = h3("Number of Shared Classes with Infected Student"), 
+    choices = list("0" = 0, "1" = 1, "2" = 2, "3" = 3, "4" = 4),
+    selected = c(0,1,2,3,4)),
+  ),
+  column(4,
+         tableOutput('table')),
+  fluidRow(
+    sankeyNetworkOutput("plot")
+  )
+)
+)
+
+server <- function(input, output, session){
+  val <- reactive(input$num)
+  check <- reactive(input$checkGroup)
+  observe({
+    txt <- val()
+    sc <- check()
+    ans <- sapply(matches,function(x)sum(matches[as.numeric(txt)]==x))
+    links$group <- as.character(ans)
+    links <- links %>%
+      filter(as.numeric(links$group) %in% sc)
+    
+    shared_classes <- links %>%
+    select(student, group) %>%
+        unique() %>%
+        group_by(group)
+
+    num_shared = data.frame(shared_classes = as.integer(0:4), num = integer(5))
+    group_shared <- (group_split(shared_classes))
+    for(i in 1:length(group_shared)){
+      g <- group_shared[[i]]
+      print(i)
+      num_shared[as.numeric(g[1,]$group)+1,]$num <- nrow(g)
+    }
+    
+    output$table <-renderTable(num_shared)
+    output$plot <- renderSankeyNetwork({
+        sankeyNetwork(Links = links, Nodes = nodes,
+                      Source = "IDsource", Target = "IDtarget",
+                      Value = "value", NodeID = "c.nodes.",
+                      colourScale = my_color,
+                      LinkGroup = "group",
+                      NodeGroup = "group",
+                      fontSize= 12, nodeWidth = 30)
+  })
+
+
+  })
+  
+  
+  
+}
+shinyApp(ui, server)
+```

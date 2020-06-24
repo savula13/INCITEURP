@@ -1,0 +1,205 @@
+---
+title: "SimInfSchedule"
+author: "Saipranav Avula"
+date: "6/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(readr)
+library(dplyr)
+library(shiny)
+library(tidyr)
+library(ggplot2)
+schedule <- read_csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/synthetic_schedule/SCHEDULE.csv")
+attends <- read_csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/synthetic_schedule/ATTENDS.csv")
+event <- read_csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/synthetic_schedule/EVENT.csv")
+person <- read_csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/synthetic_schedule/PERSON.csv")
+location <- read_csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/synthetic_schedule/LOCATION.csv")
+```
+
+```{r}
+num_infected = 15
+min_freq = 2
+
+infected <- person[1:num_infected,]
+infected <- infected$ID
+infected
+inf_class <- attends %>%
+  filter(PersonID %in% infected)
+inf_class
+
+location <- transform(location, ID = as.numeric(ID))
+build_seats <- location %>%
+  select(Building, Seats) %>%
+  group_by(Building) %>%
+  mutate(Seats = sum(Seats)) %>%
+  unique()
+build_seats
+  
+
+class_risk <- data.frame(table(inf_class$EventID)) %>%
+  rename(EventID = Var1) %>%
+  filter(Freq >= min_freq)
+
+class_risk <- class_risk %>%
+  left_join(event, by = c("EventID" = "ID"))
+class_risk <- class_risk %>%
+     left_join(location, by = c("LocationID" = "ID"))
+
+class_risk <- transform(class_risk, Building = as.factor(Building))
+building_fac <- levels(class_risk$Building)
+class_risk <- class_risk %>%
+  arrange(Building) %>%
+  rename(Risk = Freq)
+class_risk %>%
+  select(EventID, Risk, Name.x, Seats.x, LocationID, Building)
+write.csv(class_risk, "classrisk.csv")
+```
+```{r}
+inf_build_seats <- class_risk %>%
+  select(Building, Seats.x) %>%
+  group_by(Building) %>%
+  mutate(Seats.x = sum(Seats.x)) %>%
+  unique() %>%
+  rename(Seats = Seats.x)
+inf_build_seats
+
+building_risk <- class_risk %>%
+  select(Risk, Building, Name.y)
+
+building_risk <- transform(building_risk, Building = as.factor(Building))
+building_risk <- building_risk %>%
+  arrange(Building) %>%
+  group_by(Building) %>%
+  mutate(Risk = sum(Risk)) %>%
+  select(Building, Risk) %>%
+  unique()
+write.csv(building_risk, "buildingrisk.csv")
+#building_risk <- left_join(building_risk, build_seats)
+building_risk <- left_join(building_risk, inf_build_seats)
+building_risk
+
+
+
+```
+
+```{r}
+at_risk_class <- attends %>%
+  filter(EventID %in% class_risk$EventID) %>%
+  filter(!PersonID %in% infected)
+
+mod_class_risk <- class_risk %>%
+  select(EventID, Risk)
+
+
+at_risk_stu <- left_join(mod_class_risk, at_risk_class) %>%
+  select(PersonID, EventID, Risk) %>%
+  group_by(PersonID) %>%
+  mutate(Risk = sum(Risk)) %>%
+  distinct(PersonID, Risk) %>%
+  arrange(desc(Risk))
+
+risk_stu <- left_join(mod_class_risk, at_risk_class) %>%
+  select(PersonID, Risk, EventID) %>%
+  arrange(PersonID) #%>%
+  #filter(PersonID == "276779167")
+  
+
+risk_stu <- risk_stu %>%
+  left_join(event, by = c("EventID" = "ID"))
+risk_stu <- risk_stu %>% 
+  left_join(location, by = c("LocationID" = "ID")) %>%
+  select(PersonID, Risk, Name.x, Name.y, StartTime, EndTime, Seats.x, DayOfWeek) %>%
+  arrange(PersonID)
+risk_stu
+
+at_risk_stu
+```
+```{r}
+test_build <- building_risk %>% 
+  select(Building, Risk)
+plot_build <- ggplot(test_build, aes(x=as.numeric(Building), y = Risk)) +
+  geom_bar(stat="identity") 
+plot_build
+```
+```{r}
+ui <- fluidPage(
+  navbarPage( "Infection Risk",
+              
+    tabPanel("Building Risk",
+    #titlePanel("Infection Risk Data"),
+    fluidRow(
+    # column(3, textInput("students", label = h3("Num Students"), value = "Enter number of infected students...")),
+    ),
+    fluidRow(
+      column(4, tableOutput("building_data")),
+      column(6, plotOutput("build_plot"))
+    )
+  ),
+  tabPanel("Class Risk",
+      fluidRow(
+           column(2, radioButtons("buildings", "Choose building:",
+      choiceNames =
+        as.character(building_fac),
+      choiceValues =
+        as.character(building_fac),
+      selected = ("AMOS EATON HALL")
+    )),
+      column(4, tableOutput('class_data')),
+      column(4, plotOutput("class_plot"))
+    )),
+  tabPanel("Student Risk",
+    column(2, selectInput("select", label = h3("Select Student"), 
+    choices = at_risk_stu$PersonID, 
+    selected = 1)),
+    column(4,tableOutput("student_risk"))
+  )
+  )
+)
+
+server <- function(input, output) {
+  check <- reactive(input$buildings)
+  selecter <- reactive(input$select)
+  observe(priority = 0, {
+      output$building_data <- renderTable(building_risk %>%
+                                            select(Building, Risk, Seats) %>%
+                                            rename(InfectedCount = Risk) %>%
+                                            arrange(desc(InfectedCount)) %>%
+                                            mutate(Seats = as.integer(Seats)))
+  })
+  observe(priority = 1,{
+    build <- check()
+    print(build)
+    print(class_risk)
+    class_risk <- class_risk %>%
+        filter(class_risk$Building == build) %>%
+        select(Risk, Seats.x, Name.x, Name.y) %>% 
+        rename(InfectedStudents = Risk, Seats = Seats.x,
+               Course = Name.x, Room = Name.y) %>%
+        arrange(desc(InfectedStudents)) %>%
+        mutate(Seats = as.integer(Seats))
+    class_plot <- ggplot(class_risk, aes(x = Room, y = InfectedStudents)) + 
+      geom_bar(stat="identity")
+    output$class_data <- renderTable(class_risk, caption = build)
+    output$class_plot <- renderPlot(class_plot)
+  })
+  observe(priority = 2,{
+    student <- selecter()
+    risk_stu <- risk_stu %>%
+      filter(PersonID == student) %>%
+      select(Risk, Name.x, Name.y, StartTime, EndTime, Seats.x, DayOfWeek) %>%
+      rename(InfectedStudents = Risk, Course = Name.x, Room = Name.y, Seats = Seats.x ) %>%
+      arrange(desc(InfectedStudents))
+    print(student)
+    output$student_risk <- renderTable(risk_stu)
+    
+  })
+  #output$student_risk <- renderTable(at_risk_stu %>% filter(Risk > 2))
+  output$build_plot <- renderPlot(plot_build)
+}
+shinyApp(ui = ui, server = server)
+```
