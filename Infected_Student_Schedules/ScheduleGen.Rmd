@@ -13,7 +13,7 @@ num_students <- 75
 
 classes <- data.frame( loc = c("DCC308", "SAGE5101", "DCC318","SAGE2303", "RCKTTS203", "LALLY102", "TROY101","OTHER"), cap = c(200, 150, 100, 75, 40, 30, 60, 210))
 
-cleanedYacs <- read_csv("~/InciteURP/FallSchedule/cleanedYacs.csv")
+cleanedYacs <- read_csv("~/IDEA-COVID-ContactTracing/Infected_Student_Schedules/cleanedYacs.csv")
 
 days <- cleanedYacs %>%
   group_by(day)

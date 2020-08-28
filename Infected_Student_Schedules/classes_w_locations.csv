@@ -1,0 +1,1409 @@
+crn,subject,courseno,name,seats,seats_taken,location
+81273,ADMN,1010,Eff Comm For Class Pedagogy,0,0,SAGE 3205
+85069,ADMN,1010,Eff Comm For Class Pedagogy,0,0,SAGE 3205
+85107,ADMN,1824,Student Success Labs,130,86,ACADMY AUD
+82062,ADMN,1961,First Year Seminar,50,9,SAGE 3705
+85053,ADMN,1961,First Year Seminar,6,8,SAGE 4203
+83577,ARCH,2150,The Ethos Of Architecture,92,91,CARNEG 113
+83578,ARCH,2160,Architectural Media,90,86,RCKTTS 203
+81404,ARCH,2330,Structures 1,75,66,SAGE 5101
+82029,ARCH,2350,Construction Systems,75,70,CARNEG 113
+83579,ARCH,2510,Materials And Design,90,83,CARNEG 113
+83636,ARCH,2520,Digital Constructs I,85,81,SAGE 5101
+83836,ARCH,2540,Digital Constructs 3,80,65,SAGE 4101
+83608,ARCH,2800,Architectural Design Studio 1,80,15,GREENE STU
+83655,ARCH,2800,Architectural Design Studio 1,16,15,GREENE STU
+83656,ARCH,2800,Architectural Design Studio 1,16,14,GREENE STU
+83658,ARCH,2800,Architectural Design Studio 1,16,16,GREENE STU
+84207,ARCH,2800,Architectural Design Studio 1,8,2,GREENE STU
+85554,ARCH,2800,Architectural Design Studio 1,16,15,GREENE STU
+83837,ARCH,2820,Architectural Design Studio 3,75,12,GREENE STU
+83838,ARCH,2820,Architectural Design Studio 3,14,13,GREENE STU
+83839,ARCH,2820,Architectural Design Studio 3,14,14,GREENE STU
+83840,ARCH,2820,Architectural Design Studio 3,14,13,GREENE STU
+83894,ARCH,2820,Architectural Design Studio 3,14,14,GREENE STU
+84149,ARCH,2860,Building Performance Studio 2,20,3,GREENE STU
+83572,ARCH,4020,Bedford Seminar,12,11,GREENE 120
+84412,ARCH,4050,Cities And Their Territories,125,104,DARRIN 324
+84840,ARCH,4120,Cloud Atlas: 20 Th Century Arch,85,61,DARRIN 330
+84841,ARCH,4170,Environmental Parametrics,6,2,NA
+84150,ARCH,4330,Structures 2,70,65,SAGE 5101
+84439,ARCH,4510,Construction Indust Semr,20,0,GREENE 204
+81166,ARCH,4540,Professional Practice 1,30,19,SAGE 2715
+83846,ARCH,4550,Professional Practice 2,50,36,GREENE 120
+84151,ARCH,4560,Materials And Enclosures,70,66,RCKTTS 203
+84842,ARCH,4580,Materials Systems & Production,10,2,NA
+84843,ARCH,4750,Sustainable Blding Des Metrics,10,6,CARNEG 206
+83848,ARCH,4770,Architectural Design Studio 5,70,1,GREENE STU
+83847,ARCH,4770,Architectural Design Studio 5,17,2,GREENE STU
+84208,ARCH,4770,Architectural Design Studio 5,17,5,GREENE STU
+84209,ARCH,4770,Architectural Design Studio 5,17,5,GREENE STU
+84844,ARCH,4770,Architectural Design Studio 5,10,0,NA
+84152,ARCH,4780,Architectural Design Studio 6,70,3,GREENE STU
+84153,ARCH,4780,Architectural Design Studio 6,17,4,GREENE STU
+84154,ARCH,4780,Architectural Design Studio 6,17,8,GREENE STU
+84211,ARCH,4780,Architectural Design Studio 6,17,4,GREENE STU
+84845,ARCH,4780,Architectural Design Studio 6,10,2,NA
+84415,ARCH,4790,Architectural Design Studio 7,70,13,GREENE STU
+84417,ARCH,4790,Architectural Design Studio 7,17,8,GREENE STU
+84418,ARCH,4790,Architectural Design Studio 7,17,7,GREENE STU
+84419,ARCH,4790,Architectural Design Studio 7,17,15,GREENE STU
+84155,ARCH,4820,Integrated Design Schematic,43,12,GREENE STU
+84156,ARCH,4820,Integrated Design Schematic,15,8,GREENE STU
+85000,ARCH,4820,Integrated Design Schematic,15,13,GREENE STU
+85569,ARCH,4820,Integrated Design Schematic,15,12,NA
+85570,ARCH,4820,Integrated Design Schematic,0,0,NA
+84421,ARCH,4830,Integrated Design Dev Studio,32,19,GREENE 120
+81392,ARCH,4840,Architectural Acoustics 1,35,7,SAGE 3713
+82687,ARCH,4860,Applied Psychoacoustics,15,2,GREENE 204
+84503,ARCH,4890,Engineering Acoustics,10,1,DARRIN 235
+84157,ARCH,4910,Final Project Design Resch Sem,45,10,JONSSN 5119
+84158,ARCH,4910,Final Project Design Resch Sem,11,11,GREENE
+84159,ARCH,4910,Final Project Design Resch Sem,11,11,GREENE 204
+84160,ARCH,4910,Final Project Design Resch Sem,11,11,SAGE 2715
+84900,ARCH,4956,Research Design Seminar,6,2,NA
+84847,ARCH,4958,Research Investigations,6,2,NA
+85402,ARCH,4959,Geographic Simulacra,10,8,SAGE 2701
+84161,ARCH,4961,Duchamp Seminar: Anarchism Ump,7,6,GREENE 120
+85050,ARCH,4962,Architectural Ceramics,10,11,SAGE 2701
+85322,ARCH,4963,Seminar On Sensory Culture,5,5,CARNEG 205
+84423,ARCH,4964,Projecting Light,10,9,SAGE 3705
+84846,ARCH,4965,Theatrical Space As Lab,5,2,CARNEG 205
+84848,ARCH,4966,Portfolio Development,10,12,LOW 4034
+84162,ARCH,4968,How To Predict The Future,10,3,LOW 3130
+85009,ARCH,4971,Mechanical Pinata,9,10,GREENE 204
+83858,ARCH,5100,"History, Theory, Criticism I",0,0,CARNEG 113
+83860,ARCH,5140,Structures I,15,1,SAGE 5101
+83876,ARCH,5150,Structures 2,15,2,SAGE 5101
+83859,ARCH,5200,Graduate Arch Design I,15,0,GREENE STU
+83861,ARCH,5300,Materials & Construction Stms,15,0,CARNEG 113
+84165,ARCH,5340,Materials And Enclosures,15,3,RCKTTS 203
+84852,ARCH,6310,Environmental History & Theory,15,5,NA
+82684,ARCH,6320,Built Ecologies 1,20,12,NA
+84853,ARCH,6340,Material Systems & Productions,20,10,NA
+84854,ARCH,6350,Design Research Studio,15,2,NA
+84429,ARCH,6380,Environmental Parametrics,20,10,NA
+83875,ARCH,6610,Graduate Architechure Design 3,10,3,GREENE STU
+85571,ARCH,6610,Graduate Architechure Design 3,0,0,NA
+84164,ARCH,6630,Grad Arch Design 5,10,10,NA
+84163,ARCH,6750,Fin Proj Research Seminar,10,10,NA
+84166,ARCH,6810,Research Design Seminar,20,6,GREENE
+83877,ARCH,6810,Research Design Seminar,20,15,NA
+84855,ARCH,6840,Engineering Acoustics,20,6,DARRIN 236
+82690,ARCH,6860,Applied Psychoacoustics,15,5,GREENE 204
+84856,ARCH,6870,Sonics Research Lab 1,20,5,GREENE 204
+85327,ARCH,6910,Doctoral Seminar 1,10,2,NA
+85330,ARCH,6920,Doctoral Seminar 2,10,0,GREENE 120
+82235,ARCH,9990,Architecture Dissertation,10,3,NA
+81307,ARTS,1020,Digital Imaging,10,9,SAGE 3704
+81308,ARTS,1020,Digital Imaging,9,10,SAGE 3704
+84100,ARTS,1020,Digital Imaging,10,10,SAGE 3704
+85245,ARTS,1020,Digital Imaging,9,8,SAGE 3704
+85246,ARTS,1030,Digital Filmmaking,0,11,WEST 211
+85247,ARTS,1030,Digital Filmmaking,5,6,WEST 211
+84743,ARTS,1030,Digital Filmmaking,0,11,WEST 211
+84744,ARTS,1030,Digital Filmmaking,5,5,WEST 211
+85481,ARTS,1030,Digital Filmmaking,19,16,WEST 211
+84361,ARTS,1050,Art History,60,48,SAGE 4101
+81306,ARTS,1200,Basic Drawing,19,20,WEST 411
+81517,ARTS,1200,Basic Drawing,19,19,WEST 411
+85145,ARTS,1380,Fundamentals Of Music & Sound,19,21,WEST 326
+81309,ARTS,2020,Music And Technology 1,10,9,WEST 118
+85258,ARTS,2020,Music And Technology 1,9,10,WEST 118
+82041,ARTS,2040,Intermediate Digital Imaging,16,9,WEST 214
+84768,ARTS,2070,Graphic Storytelling,19,14,WEST 214
+84791,ARTS,2200,Intermediate Drawing,19,15,WEST 411
+83891,ARTS,2210,Sculpture I,16,13,SAGE 1211
+85259,ARTS,2220,Fundamentals Of 2 D Design,19,12,WEST 214
+84769,ARTS,2230,3 D Digital Modeling,19,19,SAGE 2411
+81519,ARTS,2300,Rensselaer Orchestra,75,46,WEST 326
+81518,ARTS,2310,Rensselaer Concert Choir,40,18,WEST 110
+82601,ARTS,2340,Intro To Afro Cuban Percussion,4,6,WEST 326
+84745,ARTS,2340,Intro To Afro Cuban Percussion,3,4,WEST 326
+84746,ARTS,2340,Intro To Afro Cuban Percussion,0,2,WEST 326
+84747,ARTS,2340,Intro To Afro Cuban Percussion,2,3,WEST 326
+84748,ARTS,2340,Intro To Afro Cuban Percussion,4,4,WEST 326
+84749,ARTS,2340,Intro To Afro Cuban Percussion,0,1,WEST 326
+83415,ARTS,2350,Chamber Music Ensemble,40,19,WEST 323
+85523,ARTS,2350,Chamber Music Ensemble,20,9,WEST 323
+83548,ARTS,2360,Roots Of Africa Music Ensemble,0,8,WEST 326
+85144,ARTS,2380,Music And Sound I,10,10,WEST 323
+85359,ARTS,2380,Music And Sound I,9,8,WEST 323
+83830,ARTS,2540,The Multimedia Century,40,31,WEST 323
+85437,ARTS,2960,Designing Musical Games,19,17,SAGE 2411
+84921,ARTS,2966,Sound Recording & Production I,5,4,DARRIN 174
+85341,ARTS,2966,Sound Recording & Production I,5,2,DARRIN 174
+85342,ARTS,2966,Sound Recording & Production I,5,2,DARRIN 174
+83831,ARTS,4070,3 D Animation,19,18,SAGE 2411
+85261,ARTS,4090,Art & Code & Interactivity,13,13,WEST 214
+84362,ARTS,4210,Sculpture Ii,16,10,SAGE 1211
+84792,ARTS,4220,Painting,18,11,WEST 411
+84793,ARTS,4220,Painting,1,1,WEST 411
+85262,ARTS,4380,Music And Sound Ii,19,10,WEST 323
+84364,ARTS,4390,Composition Seminar,19,6,WEST 326
+85263,ARTS,4560,Hactivism,15,17,WEST 211
+83832,ARTS,4840,Creative Seminar I,19,21,WEST 214
+84888,ARTS,4965,Biopunk: Arts Lab Practices,15,13,WEST 113
+85269,ARTS,6090,Art & Code & Interactivity,6,3,WEST 214
+83549,ARTS,6400,Experimental Game Design,3,1,SAGE 2411
+85334,ARTS,6400,Experimental Game Design,4,0,SAGE 4510
+85268,ARTS,6560,Hactivism,4,0,WEST 211
+84169,ARTS,6900,Arts Graduate Colloquium,15,7,WEST 113
+84913,ARTS,6965,Biopunk: Arts Lab Practices,4,3,WEST 113
+83220,ASTR,2050,Intro Astronomy & Astrophys,68,47,LOW 3051
+81067,ASTR,2120,Earth And Sky,60,60,DARRIN 324
+83081,ASTR,4220,Astrophysics,25,10,DARRIN 232
+85415,ASTR,4961,Cosmology,14,6,J-ROWL 1W01
+85416,ASTR,6961,Cosmology,6,2,J-ROWL 1W01
+81084,BCBP,4760,Molecular Biochem I,50,23,DARRIN 330
+83648,BCBP,4800,Methods In Biophysics,30,24,LOW 4034
+82232,BCBP,4870,Protein Structure Determin.,20,5,J-ROWL 2C13
+85432,BCBP,4960,Data Analytics,5,2,VORHES SO
+85508,BCBP,4961,Current Topics Circadian Biol,5,0,J-ROWL 1W01
+85675,BCBP,4967,Protein Ligand Interactions,4,0,NA
+85683,BCBP,4968,Biology Of The Gut Microbiota,3,0,NA
+85691,BCBP,4969,Biophysics Of Adaptation,3,0,NA
+83649,BCBP,6800,Methods In Biophysics,30,8,LOW 4034
+82233,BCBP,6870,Protein Structure Determin.,10,5,J-ROWL 2C13
+83650,BCBP,6910,Research Rotation,10,0,J-ROWL 1W01
+85509,BCBP,6961,Current Topics Circadian Biol,5,1,J-ROWL 1W01
+85677,BCBP,6967,Protein Ligand Interactions,2,0,NA
+85685,BCBP,6968,Biology Of The Gut Microbiota,2,0,NA
+85693,BCBP,6968,Biology Of The Gut Microbiota,5,1,NA
+81080,BIOL,1010,Introduction To Biology,70,70,SAGE 5101
+81081,BIOL,1010,Introduction To Biology,65,60,WALKER 6113
+82014,BIOL,1010,Introduction To Biology,70,64,TROY 2012
+84196,BIOL,1010,Introduction To Biology,60,60,SAGE 5101
+82234,BIOL,1010,Introduction To Biology,70,69,TROY 2012
+84970,BIOL,1010,Introduction To Biology,60,57,SAGE 3101
+83421,BIOL,1015,Introduction To Biology Lab,32,32,WALKER 6113
+83422,BIOL,1015,Introduction To Biology Lab,32,28,WALKER 6113
+83423,BIOL,1015,Introduction To Biology Lab,32,32,WALKER 6113
+83424,BIOL,1015,Introduction To Biology Lab,32,32,WALKER 6113
+83425,BIOL,1015,Introduction To Biology Lab,32,31,WALKER 6113
+83580,BIOL,1015,Introduction To Biology Lab,32,31,WALKER 6113
+84197,BIOL,1015,Introduction To Biology Lab,32,31,WALKER 6113
+84353,BIOL,1015,Introduction To Biology Lab,32,31,WALKER 6113
+84370,BIOL,1015,Introduction To Biology Lab,32,29,WALKER 6113
+84371,BIOL,1015,Introduction To Biology Lab,32,32,WALKER 6113
+84372,BIOL,1015,Introduction To Biology Lab,32,29,WALKER 6113
+84373,BIOL,1015,Introduction To Biology Lab,32,32,WALKER 6113
+83644,BIOL,2120,Introduction To Cell Biology,20,18,SAGE 5101
+83645,BIOL,2120,Introduction To Cell Biology,20,18,SAGE 5101
+84093,BIOL,2120,Introduction To Cell Biology,19,17,SAGE 5101
+84938,BIOL,2120,Introduction To Cell Biology,20,16,SAGE 5101
+81362,BIOL,2500,Genetics & Evolution,110,94,DARRIN 337
+83262,BIOL,4200,Biostatistics,30,31,LALLY 104
+85461,BIOL,4220,Machine Learning For Env. Biol,20,2,J-ROWL 1W01
+82658,BIOL,4260,Advanced Cell Biology,15,9,J-ROWL 2C25
+81082,BIOL,4270,Human Physiology,50,37,SAGE 4510
+83547,BIOL,4320,Microbiology Laboratory,16,13,J-ROWL 3C30
+83546,BIOL,4350,Virology,25,13,J-ROWL 2C25
+82660,BIOL,4540,Sequence Analysis,15,11,J-ROWL 2C13
+82332,BIOL,4630,Molecular Biology Ii,20,16,J-ROWL 2C25
+81186,BIOL,4720,Molecular Biology Lab,16,15,J-ROWL 2C13
+82013,BIOL,4720,Molecular Biology Lab,16,9,J-ROWL 2C13
+84899,BIOL,4740,Advanced Cell Biology Lab,10,8,J-ROWL 3W12
+81083,BIOL,4760,Molecular Biochemistry I,50,24,DARRIN 330
+85506,BIOL,4961,Current Topics Circadian Biol,5,2,J-ROWL 1W01
+85671,BIOL,4967,Protein Ligand Interactions,4,0,NA
+85681,BIOL,4968,Biology Of The Gut Microbiota,3,1,NA
+85687,BIOL,4969,Biophysics Of Adaptation,2,0,NA
+85462,BIOL,6220,Machine Learning For Env. Biol,10,3,J-ROWL 1W01
+82659,BIOL,6260,Advanced Cell Biology,15,14,J-ROWL 2C25
+84354,BIOL,6350,Virology,5,3,J-ROWL 2C25
+83820,BIOL,6410,Sequence Analysis,5,1,J-ROWL 2C13
+82661,BIOL,6510,Biology Core Course I,20,10,J-ROWL 2C13
+82905,BIOL,6690,Adv Molecular Biology,5,0,J-ROWL 2C25
+81386,BIOL,6900,Seminar In Biology,50,37,GREENE 120
+84813,BIOL,6960,Curr Topics Cytoskeletal Rsch,10,7,J-ROWL 1W01
+85507,BIOL,6961,Current Topics Circadian Biol,5,6,J-ROWL 1W01
+85051,BIOL,6962,Ethical Consid In Ad Research,35,6,CBIS
+85052,BIOL,6963,Ethical Consid In Biotech,35,1,CBIS
+84983,BIOL,6966,Perspectives In Alz Research,20,3,NA
+84987,BIOL,6966,Perspectives In Alz Research,20,6,NA
+85673,BIOL,6967,Protein Ligand Interactions,2,0,NA
+85679,BIOL,6968,Biology Of The Gut Microbiota,2,1,NA
+85689,BIOL,6969,Biophysics Of Adaptation,5,2,NA
+83564,BMED,2100,Biomaterials Sci & Engineering,49,32,SAGE 4510
+83566,BMED,2300,Bioimaging/ Bioinstrumentation,49,28,CARNEG 201
+83455,BMED,2540,Biomechanics,49,42,LOW 3051
+85313,BMED,2960,Programming For Bme,35,10,CARNEG 206
+81099,BMED,4010,Biomedical Engineering Lab,12,10,WALKER 6113
+81100,BMED,4010,Biomedical Engineering Lab,12,9,WALKER 6113
+82028,BMED,4010,Biomedical Engineering Lab,12,10,WALKER 6113
+81357,BMED,4010,Biomedical Engineering Lab,12,12,WALKER 6113
+83633,BMED,4200,Modeling Of Biomedical Systems,49,38,SAGE 3101
+83634,BMED,4260,Biomedical Product Development,49,49,PITTS 4206
+83635,BMED,4260,Biomedical Product Development,49,36,SAGE 3713
+84432,BMED,4420,Clinical Orthopaedics & Resrch,25,28,DARRIN 337
+83567,BMED,4450,Drug And Gene Delivery,49,46,SAGE 4510
+85403,BMED,4470,Biostatistics Life Science App,25,19,TROY 2015
+84875,BMED,4500,Adv Systems Physiology,60,40,LALLY 102
+84184,BMED,4540,Biomechanics Ii,49,38,EATON 215
+83363,BMED,4580,Biomedical Fluid Mechanics,39,31,JONSSN 3210
+84232,BMED,4590,Medical Imaging,25,5,CARNEG 106
+84886,BMED,4600,Biomedical Engr Design,49,22,SAGE 3101
+83842,BMED,4960,Bme Seminar,65,0,NA
+84433,BMED,6420,Clinical Orthopaedics & Resrch,10,16,DARRIN 337
+85404,BMED,6470,Biostatistics Life Science App,10,15,TROY 2015
+85474,BMED,6580,Biomedical Fluid Mechanics,39,5,JONSSN 3210
+84233,BMED,6590,Medical Imaging,10,9,CARNEG 106
+83651,BMED,6800,Discussions In Grad Research,49,48,JONSSN 5119
+83843,BMED,6960,Bme Seminar,10,4,NA
+84644,BMED,6963,Ethical Consid In Biotech,25,10,NA
+85058,BMED,6964,Ethical Consid In Ad Research,70,0,NA
+84984,BMED,6966,Perspectives In Alz Research,25,7,NA
+84988,BMED,6966,Perspectives In Alz Research,20,2,NA
+83050,CHEM,1100,Chemistry I,64,62,DARRIN 308
+81573,CHEM,1100,Chemistry I,64,62,DARRIN 308
+81578,CHEM,1100,Chemistry I,60,50,DARRIN 308
+81574,CHEM,1100,Chemistry I,60,56,DARRIN 308
+81575,CHEM,1100,Chemistry I,60,45,DARRIN 308
+81576,CHEM,1100,Chemistry I,60,20,DARRIN 308
+81577,CHEM,1100,Chemistry I,60,54,DARRIN 308
+82012,CHEM,1100,Chemistry I,60,58,DARRIN 308
+83222,CHEM,1100,Chemistry I,60,55,DARRIN 308
+83277,CHEM,1100,Chemistry I,30,15,DARRIN 308
+83278,CHEM,1100,Chemistry I,30,14,DARRIN 308
+82524,CHEM,1110,Chemistry I With Advanced Lab,60,47,DARRIN 308
+82525,CHEM,1110,Chemistry I With Advanced Lab,60,47,DARRIN 308
+82526,CHEM,1110,Chemistry I With Advanced Lab,60,52,DARRIN 308
+84400,CHEM,1600,Materials Science,5,3,WALKER 6113
+84401,CHEM,1600,Materials Science,5,2,WALKER 6113
+84402,CHEM,1600,Materials Science,5,3,WALKER 6113
+84403,CHEM,1600,Materials Science,5,5,WALKER 6113
+85037,CHEM,1960,Chemistry For Life,30,23,DARRIN 236
+81565,CHEM,2110,Equilibrium Chem And Quant Anl,40,31,EATON 215
+81571,CHEM,2120,Experimental Chemistry I,21,21,SAGE 3704
+81568,CHEM,2230,Organic Chemistry Lab I,20,20,DARRIN 330
+81569,CHEM,2230,Organic Chemistry Lab I,20,18,DARRIN 330
+81570,CHEM,2230,Organic Chemistry Lab I,20,19,DARRIN 330
+82662,CHEM,2230,Organic Chemistry Lab I,20,18,DARRIN 330
+82663,CHEM,2230,Organic Chemistry Lab I,20,16,DARRIN 330
+84541,CHEM,2230,Organic Chemistry Lab I,20,8,DARRIN 330
+81371,CHEM,2250,Organic Chemistry I,300,214,SAGE 3303
+84097,CHEM,4010,Inorganic Chemistry Ii,28,8,MATLS 136
+81567,CHEM,4020,Experimental Chem Iii,18,7,SAGE 2112
+81566,CHEM,4410,Macroscopic Physical Chemistry,20,8,DARRIN 236
+85410,CHEM,4420,Microscopic Physical Chemistry,80,53,DARRIN 318
+84735,CHEM,4440,Physical Chem For Life Science,20,14,DARRIN 236
+81348,CHEM,4530,Modern Techniques In Chemistry,0,15,EATON 215
+81582,CHEM,4530,Modern Techniques In Chemistry,0,16,EATON 215
+83849,CHEM,4530,Modern Techniques In Chemistry,16,12,EATON 215
+81095,CHEM,4760,Molecular Biochem I,50,18,DARRIN 330
+81387,CHEM,4900,Professional Devel Seminar,30,9,J-ROWL 2C13
+84894,CHEM,4961,Mass Spectroscopy,15,7,J-ROWL 1W01
+84195,CHEM,4962,Biocatalysis,30,7,J-ROWL 2C25
+85499,CHEM,4963,Enrichment   Organic Chemistry,20,5,J-ROWL 2C25
+85252,CHEM,6020,Adv Inorganic Chem I,20,6,LOW 3112
+85251,CHEM,6210,Adv Organic Chemistry I,20,4,LOW 3116
+84112,CHEM,6710,Chemical Biology,20,14,LALLY 02
+84896,CHEM,6750,Biocatalysis Fundamental Appli,20,5,J-ROWL 2C25
+81293,CHEM,6900,Chemistry Seminar,40,26,LOW 3045
+81096,CHEM,6910,Chemistry Teaching Seminar,20,9,WALKER 3222
+83653,CHEM,6950,Introduction To Research,10,9,J-ROWL 1W01
+84893,CHEM,6960,Advanced Electrochemistry,20,10,LOW 3116
+84895,CHEM,6961,Mass Spectroscopy,15,7,J-ROWL 1W01
+85059,CHEM,6962,Ethical Consid In Ad Research,70,1,CBIS
+85060,CHEM,6963,Ethical Consid In Biotech,70,1,NA
+84986,CHEM,6966,Perspectives In Alz Research,20,0,NA
+84990,CHEM,6966,Perspectives In Alz Research,20,3,NA
+82728,CHME,1010,Intro To Chemical Engineering,160,94,SAGE 3510
+81171,CHME,2010,"Material, Energy & Entropy Bal",70,63,RCKTTS 203
+84576,CHME,2010,"Material, Energy & Entropy Bal",70,24,RCKTTS 203
+85412,CHME,2050,Intro Computational Chem Eng,50,16,JONSSN 3210
+81292,CHME,4010,Transport Phenomena I,55,20,VORHES NO
+84583,CHME,4010,Transport Phenomena I,55,0,VORHES NO
+84507,CHME,4020,Transport Phenomena Ii,50,27,SAGE 5510
+82914,CHME,4030,Chem Process Dynamics & Cntrl,85,30,LOW 4050
+81355,CHME,4040,Chemical Eng Separations,75,74,SAGE 3510
+84977,CHME,4040,Chemical Eng Separations,75,31,SAGE 3510
+81167,CHME,4150,Chemical Engr Lab I,75,64,RCKTTS 008A
+81168,CHME,4150,Chemical Engr Lab I,75,39,RCKTTS 008A
+83403,CHME,4430,Intro Biochemical Engr,30,14,TROY 2015
+81188,CHME,4500,Chemical Reactor Design,150,114,DARRIN 330
+85468,CHME,4960,Physical Chemistry Of Polymers,15,0,LOW 4040
+82783,CHME,4962,Intro To Downstream Processing,20,5,RCKTTS 208
+83889,CHME,4963,Careers In Chemical Engr,50,16,RCKTTS 211
+82401,CHME,4966,Chem Engr Process Simulations,50,26,RCKTTS 203
+83404,CHME,6430,Biochemical Engr,30,5,TROY 2015
+81169,CHME,6570,Chemical & Phase Equilibria,30,29,LOW 3039
+81170,CHME,6610,Math Methods In Chem Engr I,30,30,RCKTTS 212
+83581,CHME,6900,Cbe Seminar,179,76,RCKTTS 211
+85469,CHME,6960,Physical Chemistry Of Polymers,25,12,LOW 4040
+84965,CHME,6962,Downstream Processing,20,5,RCKTTS 208
+85028,CHME,6963,Cbe Phd On Ramp Seminar,25,22,RCKTTS 212
+85029,CHME,6964,Bio Process Design,25,10,RCKTTS 206
+84985,CHME,6966,Perspectives In Alz Research,20,1,NA
+84989,CHME,6966,Perspectives In Alz Research,20,0,NA
+85061,CHME,6967,Ethical Consid In Ad Research,70,1,NA
+85062,CHME,6968,Ethical Consid In Biotech,70,0,NA
+83419,CIVL,1200,Eng Graphics For Civil Eng,100,73,DARRIN 337
+85203,CIVL,2040,Professional Practice,20,17,JONSSN 4309
+81085,CIVL,4010,Foundation Engineering,75,39,RCKTTS 211
+83367,CIVL,4020,Bedford Seminar,10,8,GREENE 120
+81093,CIVL,4070,Steel Design,60,52,SAGE 5510
+84086,CIVL,4140,Geoenvironmental Eng,30,18,JONSSN 3207
+81086,CIVL,4240,Intro To Finite Elements,5,4,TROY 2018
+85199,CIVL,4570,System Modeling For Civl & Env,20,8,LOW 3112
+82755,CIVL,4620,Mass Transit Systems,25,9,LALLY 02
+85204,CIVL,4660,Traffic Engineering,35,24,CARNEG 106
+85210,CIVL,4670,Highway Engineering,35,14,JONSSN 5119
+84511,CIVL,4961,Bedford Digital Tools Devel.,15,3,GREENE STU
+85312,CIVL,4962,Fluid Mechanics For Civl Engr,25,12,LOW 3130
+82777,CIVL,6170,Mechanics Of Solids,25,1,LOW 3112
+85200,CIVL,6190,Advanced Transportation Models,20,10,CARNEG 102
+85207,CIVL,6220,Critical Issues In Transport,20,4,LOW 3130
+85205,CIVL,6290,Freight Transportation Systems,20,7,JONSSN 3207
+83056,CIVL,6310,Adv Concrete Structures,20,11,JONSSN 4309
+83368,CIVL,6340,Bedford Design Studio,10,3,SAGE 2701
+85206,CIVL,6350,Masonry Design,35,17,LOW 3045
+85202,CIVL,6440,Nonlinear Structural Analysis,20,5,LOW 4040
+81405,CIVL,6450,Structural Dynamics,40,17,EATON 216
+85201,CIVL,6510,Advanced Geotechnical Engr,20,5,TROY 2015
+84087,CIVL,6550,Advanced Geoenv Engr,25,3,JONSSN 3207
+81094,CIVL,6660,Fund. Of Finite Elements,40,2,RCKTTS 212
+85495,COGS,2120,Intro To Cognitive Science,35,34,PITTS 4206
+85496,COGS,2120,Intro To Cognitive Science,15,16,PITTS 4206
+84947,COGS,2340,Introduction To Linguistics,30,27,DARRIN 239
+85491,COGS,2340,Introduction To Linguistics,19,17,SAGE 3704
+85492,COGS,2340,Introduction To Linguistics,5,5,SAGE 3704
+85493,COGS,2340,Introduction To Linguistics,19,20,SAGE 5711
+85494,COGS,2340,Introduction To Linguistics,5,5,SAGE 5711
+85186,COGS,4340,Computational Linguistics,10,2,RCKTTS 208
+83544,COGS,4410,Programming For Cog Sci & Ai,8,16,DARRIN 232
+83583,COGS,4420,Game Ai,15,16,SAGE 4112
+84960,COGS,4420,Game Ai,25,13,SAGE 2510
+85211,COGS,4700,"Hormones, Brain & Behavior",9,8,SAGE 4203
+85191,COGS,4780,Advanced Topics In Linguistics,15,4,SAGE 2112
+84933,COGS,4967,Human Perf Modeling & Support,5,1,VORHES NO
+85190,COGS,6340,Computational Linguistics,9,2,RCKTTS 208
+83545,COGS,6410,Programming For Cog Sci & Ai,3,2,DARRIN 232
+84374,COGS,6570,Advanced Behavioral Statistics,19,1,CARNEG 102
+85187,COGS,6780,Advanced Topics In Linguistics,4,3,SAGE 2112
+84882,COGS,6961,Expertise & Decision Making,12,13,SAGE
+83223,COGS,6968,Research Problems In Cog Sci,30,20,SAGE 4101
+85213,COMM,2410,Perspectives On Photography,19,18,DARRIN 239
+85214,COMM,2410,Perspectives On Photography,0,1,DARRIN 239
+85215,COMM,2440,Documentary Film,19,18,SAGE 3713
+85216,COMM,2440,Documentary Film,19,0,SAGE 3713
+85220,COMM,2510,Cultural Anthropology,19,20,SAGE 4101
+85148,COMM,2520,Communication Theory & Prac.,3,4,SAGE 2707
+85149,COMM,2520,Communication Theory & Prac.,16,15,SAGE 2707
+85150,COMM,2520,Communication Theory & Prac.,3,4,SAGE 2112
+85151,COMM,2520,Communication Theory & Prac.,0,12,SAGE 2112
+85152,COMM,2520,Communication Theory & Prac.,0,15,TROY 2015
+85153,COMM,2520,Communication Theory & Prac.,3,3,TROY 2015
+85217,COMM,2520,Communication Theory & Prac.,0,13,SAGE 2707
+85218,COMM,2520,Communication Theory & Prac.,3,3,SAGE 2707
+84538,COMM,2660,Introduction To Graphic Design,15,21,SAGE 2411
+85293,COMM,2960,2 D Motion Graphics,15,12,SAGE 2411
+83550,COMM,4250,Writing For Games Ii,19,10,SAGE 3205
+83551,COMM,4320,Visual Poetics & Narrative,16,12,SAGE 4711
+84558,COMM,4420,Foundations Of Hci Usability,19,13,SAGE 2707
+85040,COMM,4420,Foundations Of Hci Usability,19,7,SAGE 4112
+85219,COMM,4580,Advertising And Culture,19,19,SAGE 2112
+83392,COMM,4770,User Experience Design,12,5,SAGE 4711
+83552,COMM,6320,Visual Poetics & Narrative,3,0,SAGE 4711
+84559,COMM,6420,Foundations Of Hci Usability,11,11,SAGE 2707
+85041,COMM,6420,Foundations Of Hci Usability,11,16,SAGE 4112
+83394,COMM,6770,User Experience Design,10,6,SAGE 4711
+81528,CSCI,1010,Intro To Computer Programming,58,54,LALLY 102
+81042,CSCI,1100,Computer Science I,30,30,DARRIN 308
+81395,CSCI,1100,Computer Science I,36,38,DARRIN 308
+81396,CSCI,1100,Computer Science I,34,34,DARRIN 308
+83249,CSCI,1100,Computer Science I,40,42,DARRIN 308
+83250,CSCI,1100,Computer Science I,40,44,DARRIN 308
+82372,CSCI,1100,Computer Science I,46,44,DARRIN 308
+81043,CSCI,1100,Computer Science I,30,26,DARRIN 308
+82951,CSCI,1100,Computer Science I,46,45,DARRIN 308
+82380,CSCI,1100,Computer Science I,46,46,DARRIN 308
+81044,CSCI,1100,Computer Science I,34,33,DARRIN 308
+84115,CSCI,1100,Computer Science I,32,32,DARRIN 308
+83462,CSCI,1100,Computer Science I,30,31,DARRIN 308
+85021,CSCI,1100,Computer Science I,32,30,DARRIN 308
+84116,CSCI,1100,Computer Science I,30,31,DARRIN 308
+81046,CSCI,1100,Computer Science I,46,41,DARRIN 308
+83896,CSCI,1100,Computer Science I,30,26,DARRIN 308
+82563,CSCI,1100,Computer Science I,30,31,DARRIN 308
+84117,CSCI,1100,Computer Science I,30,14,DARRIN 308
+84267,CSCI,1100,Computer Science I,30,26,DARRIN 308
+84268,CSCI,1100,Computer Science I,40,20,DARRIN 308
+84269,CSCI,1100,Computer Science I,30,15,DARRIN 308
+84270,CSCI,1100,Computer Science I,30,22,DARRIN 308
+81045,CSCI,1100,Computer Science I,46,15,DARRIN 308
+82906,CSCI,1190,Beginning Prog For Eng,0,46,CARNEG 113
+82908,CSCI,1190,Beginning Prog For Eng,0,41,CARNEG 113
+82907,CSCI,1190,Beginning Prog For Eng,0,39,CARNEG 113
+83109,CSCI,1190,Beginning Prog For Eng,0,22,CARNEG 113
+81047,CSCI,1200,Data Structures,36,28,DARRIN 308
+83668,CSCI,1200,Data Structures,36,27,DARRIN 308
+81048,CSCI,1200,Data Structures,36,30,DARRIN 308
+83405,CSCI,1200,Data Structures,36,29,DARRIN 308
+82373,CSCI,1200,Data Structures,36,26,DARRIN 308
+81049,CSCI,1200,Data Structures,36,34,DARRIN 308
+81369,CSCI,1200,Data Structures,36,29,DARRIN 308
+83895,CSCI,1200,Data Structures,36,22,DARRIN 308
+84118,CSCI,1200,Data Structures,36,30,DARRIN 308
+84399,CSCI,1200,Data Structures,36,25,DARRIN 308
+83406,CSCI,2200,Foundations Of Computer Sci,74,72,SAGE 3303
+83605,CSCI,2200,Foundations Of Computer Sci,74,69,SAGE 3303
+83850,CSCI,2200,Foundations Of Computer Sci,74,72,SAGE 3303
+84548,CSCI,2200,Foundations Of Computer Sci,74,72,SAGE 3303
+85406,CSCI,2200,Foundations Of Computer Sci,80,46,EATON 214
+81050,CSCI,2300,Introduction To Algorithms,36,31,DARRIN 318
+81051,CSCI,2300,Introduction To Algorithms,36,39,DARRIN 318
+81370,CSCI,2300,Introduction To Algorithms,36,39,DARRIN 318
+81356,CSCI,2300,Introduction To Algorithms,36,37,DARRIN 318
+82347,CSCI,2300,Introduction To Algorithms,36,39,DARRIN 318
+81313,CSCI,2300,Introduction To Algorithms,36,37,DARRIN 318
+81052,CSCI,2500,Computer Organization,70,67,SAGE 3303
+83851,CSCI,2500,Computer Organization,76,73,SAGE 3303
+83852,CSCI,2500,Computer Organization,90,84,SAGE 3303
+83599,CSCI,2600,Principles Of Software,260,143,SAGE 3303
+83632,CSCI,2960,Web Systems Development,5,2,LALLY 102
+84598,CSCI,4030,Randomized Algorithms,40,8,GREENE 120
+82376,CSCI,4100,Machine Learning From Data,0,73,SAGE 3510
+84818,CSCI,4220,Network Programming,98,98,LOW 4050
+83593,CSCI,4230,Crypt & Network Security I,70,43,SAGE 4101
+84123,CSCI,4250,Frontiers Of Network Science,30,8,J-ROWL 2C25
+84600,CSCI,4270,Computational Vision,66,57,LOW 4050
+85374,CSCI,4310,Networking In The Linux Kernel,50,31,EATON 215
+83584,CSCI,4350,Data Science,13,11,LALLY 104
+81401,CSCI,4380,Database Systems,120,115,DARRIN 324
+83600,CSCI,4390,Data Mining,70,44,DARRIN 337
+81572,CSCI,4430,Programming Languages,297,292,SAGE 3303
+81092,CSCI,4440,Software Design & Doc.,50,53,WALKER 6113
+81192,CSCI,4440,Software Design & Doc.,25,20,WALKER 6113
+81393,CSCI,4440,Software Design & Doc.,25,18,WALKER 6113
+85372,CSCI,4460,Large Scale Program & Testing,57,55,PITTS 4206
+82564,CSCI,4480,Robotics I,50,12,TROY 2018
+84462,CSCI,4510,Dist Systems & Algorithms,45,44,LOW 3051
+82688,CSCI,4520,Game Development I,15,13,TROY 2012
+81197,CSCI,4800,Numerical Computing,70,10,DARRIN 337
+83055,CSCI,4800,Numerical Computing,70,11,SAGE 3510
+83230,CSCI,4960,Data Analytics,5,5,VORHES SO
+82672,CSCI,4961,Topics   Semantic Technologies,5,0,WINSLW 1140
+85376,CSCI,4962,Network Resilience,20,4,MATLS 334
+85378,CSCI,4963,Algorithmic Game Theory,10,4,JONSSN 3207
+82030,CSCI,4964,Cognitive Computing,45,15,SAGE 3101
+85389,CSCI,4965,Rcos   Large Group Meetings,30,28,SAGE 2112
+85390,CSCI,4965,Rcos   Large Group Meetings,30,30,SAGE 2715
+85391,CSCI,4965,Rcos   Large Group Meetings,30,27,SAGE 2707
+85392,CSCI,4965,Rcos   Large Group Meetings,30,25,SAGE 3704
+85393,CSCI,4965,Rcos   Large Group Meetings,30,29,SAGE 3705
+85394,CSCI,4965,Rcos   Large Group Meetings,30,28,SAGE 4112
+85395,CSCI,4965,Rcos   Large Group Meetings,30,19,SAGE 4203
+85396,CSCI,4965,Rcos   Large Group Meetings,30,13,SAGE 4510
+85397,CSCI,4965,Rcos   Large Group Meetings,30,11,SAGE 2112
+83597,CSCI,4965,Rcos   Large Group Meetings,0,0,DARRIN 318
+85746,CSCI,4965,Rcos   Large Group Meetings,0,0,VORHES SO
+82245,CSCI,4966,Programming For Cog Sci & Ai,8,6,DARRIN 232
+82520,CSCI,4967,Modern Binary Exploitation,10,12,LOW 3112
+85357,CSCI,4968,Game Ai,9,10,SAGE 4112
+82377,CSCI,6100,Machine Learning From Data,0,38,SAGE 3510
+84876,CSCI,6220,Randomized Algorithms,20,11,GREENE 120
+83596,CSCI,6230,Crypt And Network Security I,70,6,SAGE 4101
+84124,CSCI,6250,Frontiers Of Network Science,30,16,J-ROWL 2C25
+84872,CSCI,6270,Computational Vision,24,18,LOW 4050
+85375,CSCI,6310,Networking In The Linux Kernel,50,4,EATON 215
+83585,CSCI,6350,Data Science,9,8,LALLY 104
+84885,CSCI,6390,Data Mining,70,46,DARRIN 337
+83592,CSCI,6430,Programming Languages,17,5,SAGE 3303
+85373,CSCI,6460,Large Scale Program & Testing,7,7,PITTS 4206
+84463,CSCI,6510,Dist Systems & Algorithms,25,22,LOW 3051
+81533,CSCI,6800,Computational Linear Algebra,40,10,CARNEG 113
+81402,CSCI,6900,Computer Science Colloquium,0,0,LOW 3051
+84300,CSCI,6900,Computer Science Colloquium,0,0,SAGE 2707
+85377,CSCI,6961,Topics   Semantic Technologies,15,9,WINSLW 1140
+84609,CSCI,6962,Network Resilience,10,6,MATLS 334
+85379,CSCI,6963,Algorithmic Game Theory,20,9,JONSSN 3207
+83641,CSCI,6964,Cognitive Computing,20,0,SAGE 3101
+81454,CSCI,6969,Graduate Skills,50,38,EATON 215
+85067,CSCI,6969,Graduate Skills,0,0,EATON 215
+81003,ECON,2010,Intermediate Microecon Theory,90,73,CARNEG 113
+81004,ECON,2010,Intermediate Microecon Theory,90,54,SAGE 5101
+83541,ECON,2020,Intermediate Macroecon Theory,40,32,SAGE 3713
+83676,ECON,2020,Intermediate Macroecon Theory,65,48,SAGE 5510
+84751,ECON,2020,Intermediate Macroecon Theory,65,25,ACADMY AUD
+85184,ECON,4110,Econ Analysis Of Tech Change,19,15,SAGE 2715
+81481,ECON,4130,Money & Banking,200,158,WEST AUD
+84509,ECON,4150,Econ Gov Regulation/Firm Strat,19,13,SAGE 3205
+85156,ECON,4170,Health Economics And Policy,19,18,SAGE 2707
+84363,ECON,4190,Internat Eco And Globalization,29,31,SAGE 4112
+85360,ECON,4220,Applied Game Theory,19,17,DARRIN 236
+85362,ECON,4270,Behavioral Economics,25,23,DARRIN 239
+85364,ECON,4280,Econometric Methods Big Data,19,6,SAGE 2704
+84963,ECON,4330,Econ Financial Markets & Inst.,49,35,TROY 2018
+83401,ECON,4570,Econometrics,19,18,SAGE 2112
+84527,ECON,4570,Econometrics,20,12,SAGE 2411
+82182,ECON,4900,Seminar In Economics,40,6,SAGE 2112
+85457,ECON,4962,Behavioral Financial Economics,19,5,SAGE 4304
+84510,ECON,6150,Adv Economics Gov. Regulations,19,0,SAGE 3205
+85157,ECON,6170,Health Economics And Policy,19,0,SAGE 2707
+84752,ECON,6190,Adv Intern Eco & Globalization,29,0,SAGE 4112
+85361,ECON,6220,Applied Game Theory,9,3,DARRIN 236
+85363,ECON,6270,Behavioral Economics,10,6,DARRIN 239
+85365,ECON,6280,Econometric Methods Big Data,9,5,SAGE 2704
+83402,ECON,6560,Introduction To Econometrics,9,5,SAGE 2112
+84528,ECON,6560,Introduction To Econometrics,9,4,SAGE 2411
+84918,ECON,6960,Applied Microeconomics,19,10,SAGE 3705
+84919,ECON,6961,Applied Econometrics,19,5,SAGE 4304
+85456,ECON,6962,Behavioral Financial Economics,19,1,SAGE 4304
+85290,ECON,6965,Economic Analysis Tech Change,10,2,SAGE 2715
+84426,ECSE,1010,Introduction To Ecse,70,72,ACADMY AUD
+84427,ECSE,1010,Introduction To Ecse,68,64,TROY 2018
+84129,ECSE,1090,Mechatronics Hardware/Software,6,1,LOW 4034
+81530,ECSE,2010,Electric Circuits,60,35,ACADMY AUD
+81139,ECSE,2010,Electric Circuits,60,60,ACADMY AUD
+81140,ECSE,2050,Introduction To Electronics,42,46,DARRIN 318
+83855,ECSE,2050,Introduction To Electronics,42,41,DARRIN 318
+81598,ECSE,2100,Fields And Waves I,36,29,LOW 4050
+84395,ECSE,2110,Electrical Energy Systems,60,54,GREENE 120
+83664,ECSE,2210,Microelectronics Technology,73,67,SAGE 5101
+81142,ECSE,2410,Signals & Systems,120,100,DARRIN 324
+82689,ECSE,2500,Engineering Probability,125,78,ACADMY AUD
+81143,ECSE,2610,Cptr Components & Oper,36,41,SAGE 3510
+81158,ECSE,2610,Cptr Components & Oper,44,51,SAGE 3510
+81202,ECSE,2610,Cptr Components & Oper,43,41,SAGE 3510
+84396,ECSE,2660,Comp Architecture & Networks,60,46,EATON 215
+83595,ECSE,2900,Ecse Enrichment Seminar,120,116,LOW 4050
+83853,ECSE,4030,Analog Ic Design,36,13,JONSSN 4304
+84394,ECSE,4080,Semi Power Electronics,35,27,JONSSN 4107
+83571,ECSE,4090,Mechatronics,0,13,JONSSN 4304
+84110,ECSE,4110,Power Engineering Analysis,16,19,LOW 4034
+81144,ECSE,4220,Vlsi Design,36,40,JONSSN 6309
+81145,ECSE,4250,Ic Proc & Design,34,25,JONSSN 6309
+84936,ECSE,4380,Fund Of Solid State Lghtng Sys,36,5,JONSSN 4107
+81146,ECSE,4440,Control Systems Engineering,30,23,JONSSN 4107
+82567,ECSE,4480,Robotics I,50,12,TROY 2018
+81147,ECSE,4520,Communication Systems,30,29,JONSSN 6309
+83080,ECSE,4530,Digital Signal Processing,40,35,JONSSN 4104
+85212,ECSE,4620,Comp Vision For Visual Effects,42,20,JONSSN 4104
+81148,ECSE,4670,Cptr Comm Networks,30,28,JONSSN 6309
+84887,ECSE,4720,Solid State Physics,30,4,CARNEG 101
+81149,ECSE,4750,Computer Graphics,70,32,SAGE 4101
+81150,ECSE,4770,Computer Hardware Design,8,1,JONSSN 6309
+81151,ECSE,4770,Computer Hardware Design,8,4,JONSSN 6309
+81152,ECSE,4770,Computer Hardware Design,8,5,JONSSN 6309
+81153,ECSE,4770,Computer Hardware Design,8,4,JONSSN 6309
+81154,ECSE,4770,Computer Hardware Design,8,9,JONSSN 6309
+81312,ECSE,4770,Computer Hardware Design,8,3,JONSSN 6309
+81237,ECSE,4770,Computer Hardware Design,8,3,JONSSN 6309
+81159,ECSE,4790,Microprocessor Systems,49,40,JONSSN 6309
+81531,ECSE,4900,Multidisciplinary Cap Design,0,14,JONSSN 3332
+81532,ECSE,4900,Multidisciplinary Cap Design,0,17,JONSSN 3332
+81585,ECSE,4900,Multidisciplinary Cap Design,0,13,JONSSN 3332
+82516,ECSE,4900,Multidisciplinary Cap Design,0,14,JONSSN 3332
+84832,ECSE,4961,Mod&Sim For Cyber Physical Sys,20,10,JONSSN 4107
+84902,ECSE,4962,Introduction Machine Learning,17,6,JONSSN 4104
+82920,ECSE,6110,Power Engineering Analysis,16,2,LOW 4034
+85223,ECSE,6140,Pwr Gen Operation & Control,16,6,JONSSN 6314
+83598,ECSE,6220,Phys Found Of Solid State Dev,20,12,JONSSN 4107
+81155,ECSE,6230,Semicond Dev & Models I,30,11,JONSSN 4107
+85224,ECSE,6280,Light Emitting Diodes,30,11,JONSSN 4304
+81156,ECSE,6400,Systems Analysis Techniques,40,7,JONSSN 4107
+84111,ECSE,6470,Robotics I,15,2,TROY 2018
+81157,ECSE,6510,Intro Stoch Sign & Sys,30,17,JONSSN 4104
+84901,ECSE,6610,Pattern Recognition,17,15,JONSSN 4104
+85228,ECSE,6620,Comp Vision For Visual Effects,42,7,JONSSN 4104
+85222,ECSE,6650,Computer Vision,42,30,JONSSN 4104
+85221,ECSE,6750,Finite State Machine Theory,0,0,JONSSN 6309
+84586,ECSE,6900,Seminar In Ecse,100,38,DARRIN 324
+84833,ECSE,6961,Mod&Sim For Cyber Physical Sys,20,8,JONSSN 4107
+84927,ECSE,6963,Renew. Energy Conv & Grid Inte,16,6,LOW 3130
+84444,ECSE,6964,Computer Graphics,10,1,SAGE 4101
+85229,ECSE,6965,Robot Dynamics And Control,16,6,JONSSN 6309
+85302,ENGR,1010,Professional Development I,35,29,ACADMY AUD
+81005,ENGR,1100,Intro To Engr Analysis,80,71,LOW 4050
+81006,ENGR,1100,Intro To Engr Analysis,68,64,TROY 2018
+81394,ENGR,1100,Intro To Engr Analysis,80,75,LOW 4050
+81007,ENGR,1100,Intro To Engr Analysis,80,79,SAGE 5510
+81008,ENGR,1100,Intro To Engr Analysis,70,67,DARRIN 337
+82511,ENGR,1100,Intro To Engr Analysis,60,40,DARRIN 337
+81009,ENGR,1100,Intro To Engr Analysis,60,57,LOW 3051
+83112,ENGR,1100,Intro To Engr Analysis,60,53,RCKTTS 203
+83217,ENGR,1100,Intro To Engr Analysis,70,67,RCKTTS 211
+81187,ENGR,1200,Engr Graphics & Cad,50,41,JONSSN 3210
+81090,ENGR,1200,Engr Graphics & Cad,50,24,JONSSN 3210
+81089,ENGR,1200,Engr Graphics & Cad,50,45,JONSSN 3210
+83048,ENGR,1200,Engr Graphics & Cad,50,46,JONSSN 3210
+81010,ENGR,1200,Engr Graphics & Cad,30,27,JONSSN 3207
+81011,ENGR,1200,Engr Graphics & Cad,50,39,JONSSN 3210
+83218,ENGR,1200,Engr Graphics & Cad,30,25,JONSSN 3207
+83219,ENGR,1200,Engr Graphics & Cad,50,40,JONSSN 3210
+83254,ENGR,1200,Engr Graphics & Cad,50,43,JONSSN 3210
+81012,ENGR,1300,Engr Processes,28,25,JONSSN 1010
+81013,ENGR,1300,Engr Processes,28,26,JONSSN 1010
+81014,ENGR,1300,Engr Processes,28,25,JONSSN 1010
+81015,ENGR,1300,Engr Processes,28,23,JONSSN 1010
+81016,ENGR,1300,Engr Processes,28,28,JONSSN 1010
+83558,ENGR,1300,Engr Processes,28,27,JONSSN 1010
+81017,ENGR,1300,Engr Processes,28,25,JONSSN 1010
+81018,ENGR,1300,Engr Processes,28,19,JONSSN 1010
+81019,ENGR,1300,Engr Processes,28,13,JONSSN 1010
+83559,ENGR,1300,Engr Processes,28,25,JONSSN 1010
+84237,ENGR,1300,Engr Processes,28,19,JONSSN 1010
+84357,ENGR,1300,Engr Processes,28,26,JONSSN 1010
+83256,ENGR,1400,Engineering Communications,50,35,JONSSN 3210
+83257,ENGR,1400,Engineering Communications,50,42,JONSSN 3210
+83258,ENGR,1400,Engineering Communications,50,42,LOW 3045
+83259,ENGR,1400,Engineering Communications,30,27,JONSSN 3207
+83260,ENGR,1400,Engineering Communications,50,39,JONSSN 3210
+83261,ENGR,1400,Engineering Communications,50,15,JONSSN 3210
+81020,ENGR,1600,Materials Science For Engineer,35,8,WALKER 6113
+81480,ENGR,1600,Materials Science For Engineer,45,38,WALKER 6113
+81486,ENGR,1600,Materials Science For Engineer,45,33,WALKER 6113
+82498,ENGR,1600,Materials Science For Engineer,45,27,WALKER 6113
+84906,ENGR,1700,Intro To Better World Engr,125,106,DARRIN 330
+85400,ENGR,2020,Design & Innovation Studio Iii,18,17,SAGE 2211
+81021,ENGR,2050,Intro Engineering Design,28,26,JONSSN 3232
+82671,ENGR,2050,Intro Engineering Design,28,28,JONSSN 5119
+81349,ENGR,2050,Intro Engineering Design,28,23,JONSSN 4309
+81022,ENGR,2050,Intro Engineering Design,28,24,JONSSN 3210
+81023,ENGR,2050,Intro Engineering Design,28,13,JONSSN 4309
+81024,ENGR,2050,Intro Engineering Design,28,27,JONSSN 3232
+84105,ENGR,2050,Intro Engineering Design,28,20,LOW 3130
+83561,ENGR,2050,Intro Engineering Design,28,16,JONSSN 3232
+83410,ENGR,2050,Intro Engineering Design,28,15,JONSSN 3207
+81025,ENGR,2050,Intro Engineering Design,28,13,JONSSN 3210
+81026,ENGR,2050,Intro Engineering Design,28,28,JONSSN 4309
+81515,ENGR,2050,Intro Engineering Design,28,9,JONSSN 3232
+84358,ENGR,2050,Intro Engineering Design,28,23,LOW 3116
+81028,ENGR,2090,Engineering Dynamics,50,23,SAGE 3101
+82493,ENGR,2090,Engineering Dynamics,70,59,SAGE 4101
+84252,ENGR,2090,Engineering Dynamics,40,19,LOW 3045
+84360,ENGR,2090,Engineering Dynamics,45,28,CARNEG 201
+81029,ENGR,2250,Thermal And Fluids Engr I,60,16,SAGE 5101
+83411,ENGR,2250,Thermal And Fluids Engr I,60,11,TROY 2012
+81516,ENGR,2250,Thermal And Fluids Engr I,45,44,LALLY 104
+82229,ENGR,2250,Thermal And Fluids Engr I,60,38,TROY 2012
+83417,ENGR,2300,Electronic Instrumentation,68,41,JONSSN 4201
+83418,ENGR,2300,Electronic Instrumentation,68,64,JONSSN 4201
+81030,ENGR,2350,Embedded Control,68,51,JONSSN 4201
+81031,ENGR,2350,Embedded Control,70,63,JONSSN 4201
+81032,ENGR,2350,Embedded Control,68,53,JONSSN 4201
+81033,ENGR,2350,Embedded Control,70,59,JONSSN 4201
+81034,ENGR,2530,Strength Of Materials,75,74,RCKTTS 211
+81035,ENGR,2530,Strength Of Materials,75,72,RCKTTS 211
+81036,ENGR,2530,Strength Of Materials,75,68,RCKTTS 211
+81385,ENGR,2530,Strength Of Materials,75,72,RCKTTS 211
+84442,ENGR,2530,Strength Of Materials,30,25,JONSSN 3207
+81037,ENGR,2600,Mod & Analysis Uncertainty,68,57,TROY 2012
+81038,ENGR,2600,Mod & Analysis Uncertainty,68,49,TROY 2012
+82510,ENGR,2600,Mod & Analysis Uncertainty,60,35,RCKTTS 211
+81039,ENGR,2600,Mod & Analysis Uncertainty,80,69,DARRIN 324
+83412,ENGR,2600,Mod & Analysis Uncertainty,60,44,TROY 2012
+84243,ENGR,2600,Mod & Analysis Uncertainty,35,32,SAGE 3704
+84443,ENGR,2600,Mod & Analysis Uncertainty,30,21,JONSSN 4309
+81040,ENGR,2710,Gen Manufacturing Proc,30,28,LOW 3039
+82228,ENGR,2720,Computer Aided Machining,17,17,LOW 4034
+82909,ENGR,4010,Professional Devel Iii,48,47,JONSSN 5119
+82664,ENGR,4010,Professional Devel Iii,48,42,JONSSN 5119
+82665,ENGR,4010,Professional Devel Iii,50,46,ACADMY AUD
+82666,ENGR,4010,Professional Devel Iii,50,45,ACADMY AUD
+82667,ENGR,4010,Professional Devel Iii,48,40,GREENE 120
+82668,ENGR,4010,Professional Devel Iii,50,48,JONSSN 5119
+82669,ENGR,4010,Professional Devel Iii,49,42,JONSSN 5119
+82670,ENGR,4010,Professional Devel Iii,35,32,JONSSN 4309
+82910,ENGR,4010,Professional Devel Iii,48,35,JONSSN 5119
+84096,ENGR,4010,Professional Devel Iii,49,40,JONSSN 5119
+81520,ENGR,4100,Business Issues For Engr & Sci,9,8,TROY 2018
+84355,ENGR,4710,Manufacturing Proc & Sys Lab I,24,22,JONSSN 3232
+84356,ENGR,4710,Manufacturing Proc & Sys Lab I,24,21,JONSSN 3232
+82227,ENGR,4760,Engineering Economics,80,79,SAGE 4101
+81521,ENGR,6100,Business Issues For Engr & Sci,8,7,TROY 2018
+84132,ENGR,6120,Adv. Manufacturing Proc & Sys,5,3,JONSSN 3207
+84092,ENVE,4240,Bench Scale Design,25,9,MATLS 362
+85208,ENVE,4310,Appl Hydrology & Hydraulics,16,21,SAGE 3101
+85430,ENVE,4310,Appl Hydrology & Hydraulics,18,15,SAGE 3101
+85463,ENVE,4310,Appl Hydrology & Hydraulics,16,9,SAGE 3101
+83366,ENVE,4330,Intro To Air Quality Control,30,11,DARRIN 235
+81354,ENVE,4350,Biol Process In Enve,25,14,MATLS 136
+83420,ENVE,4710,Groundwater Hydrology,40,7,LOW 3045
+85482,ENVE,4961,Water Reuse Technologies/Apps,25,5,DARRIN 239
+82681,ENVE,6110,Adv Groundwater Hydrology,40,3,LOW 3045
+85209,ENVE,6200,Hazardous Waste Mgmt I,20,1,JONSSN 3207
+84341,ERTH,1100,Geology I: Earth's Interior,35,36,ACADMY AUD
+84342,ERTH,1100,Geology I: Earth's Interior,31,22,ACADMY AUD
+84343,ERTH,1100,Geology I: Earth's Interior,30,24,ACADMY AUD
+85450,ERTH,1100,Geology I: Earth's Interior,30,29,ACADMY AUD
+84344,ERTH,1150,Geology I: Lab,24,23,J-ROWL 3W13
+84345,ERTH,1150,Geology I: Lab,24,23,J-ROWL 3W13
+84346,ERTH,1150,Geology I: Lab,24,23,J-ROWL 3W13
+85024,ERTH,1150,Geology I: Lab,24,24,J-ROWL 3W13
+85545,ERTH,1150,Geology I: Lab,24,18,J-ROWL 3W13
+82494,ERTH,2210,Field Methods,24,11,J-ROWL 2C25
+85233,ERTH,2330,Earth Materials,24,10,J-ROWL 3W13
+84531,ERTH,2960,Intro To Geobiology,30,28,J-ROWL 3W13
+85230,ERTH,4070,Sedimentology /Stratigraphy,24,2,J-ROWL 3W13
+83586,ERTH,4350,Data Science,0,1,LALLY 104
+85189,ERTH,4570,Solid Earth Geophysics,24,8,J-ROWL 2C25
+81087,ERTH,4710,Groundwater Hydrology,40,10,LALLY 02
+83587,ERTH,6350,Data Science,1,1,LALLY 104
+81088,ERTH,6710,Advanced Grndwtr Hydro,40,0,LALLY 02
+84753,GSAS,1040,Art For Interactive Media,19,22,WEST 211
+84755,GSAS,1600,History And Culture Of Games,19,19,WEST 112
+84975,GSAS,1600,History And Culture Of Games,19,20,WEST 112
+85539,GSAS,1600,History And Culture Of Games,10,6,WEST 112
+85540,GSAS,1600,History And Culture Of Games,9,9,WEST 112
+85541,GSAS,1600,History And Culture Of Games,10,9,SAGE 5711
+85542,GSAS,1600,History And Culture Of Games,9,9,SAGE 5711
+84754,GSAS,2510,Intro To Game Design,19,20,SAGE 2510
+84774,GSAS,2510,Intro To Game Design,19,22,SAGE 2510
+85055,GSAS,2510,Intro To Game Design,19,17,SAGE 2510
+84757,GSAS,2520,Intro To Game Storytelling,19,19,SAGE 3705
+84758,GSAS,2520,Intro To Game Storytelling,19,15,SAGE 3713
+84759,GSAS,2520,Intro To Game Storytelling,10,9,SAGE 2510
+84760,GSAS,2520,Intro To Game Storytelling,9,11,SAGE 2510
+85535,GSAS,2540,Intro To Game Programming,10,4,SAGE 2510
+85536,GSAS,2540,Intro To Game Programming,9,8,SAGE 2510
+85537,GSAS,2540,Intro To Game Programming,10,4,SAGE 2510
+85538,GSAS,2540,Intro To Game Programming,9,6,SAGE 2510
+84756,GSAS,4510,Experimental Game Design,16,18,SAGE 2411
+85234,GSAS,4510,Experimental Game Design,20,27,SAGE 4510
+84775,GSAS,4520,Game Development I,30,30,TROY 2012
+84776,GSAS,4520,Game Development I,45,35,PITTS 4206
+85438,GSAS,4960,"Lighting, Rendering And Cinema",19,11,SAGE 2411
+85356,GSAS,4968,Learning And Advanced Game Ai,10,9,SAGE 4203
+84761,IHSS,1010,Exploring Music @ Rensselaer,50,52,WEST AUD
+83639,IHSS,1110,Nature/Society,19,16,DNASN 130
+83637,IHSS,1140,Minds And Machines,19,18,SAGE 3303
+83638,IHSS,1140,Minds And Machines,19,18,SAGE 3303
+84579,IHSS,1140,Minds And Machines,19,18,SAGE 3303
+84580,IHSS,1140,Minds And Machines,19,19,SAGE 3303
+85297,IHSS,1150,The Genome And You,30,30,SAGE 2704
+85486,IHSS,1175,Well Being:Cultivtng Curiosity,19,19,WEST 326
+85487,IHSS,1175,Well Being:Cultivtng Curiosity,19,19,WEST 326
+85513,IHSS,1180,The Art Of Listening,19,19,WEST 326
+85514,IHSS,1180,The Art Of Listening,19,18,WEST 326
+85154,IHSS,1200,Principles Of Economics,300,208,SAGE 3303
+85155,IHSS,1200,Principles Of Economics,300,245,SAGE 3303
+85521,IHSS,1235,Are Humans Rational?,100,99,DARRIN 337
+84570,IHSS,1240,Sustainability Debates,19,18,TROY 2018
+84762,IHSS,1240,Sustainability Debates,19,17,TROY 2018
+84763,IHSS,1240,Sustainability Debates,19,7,TROY 2018
+84764,IHSS,1300,Race & Film In Us Cult & Hist,19,12,WEST 113
+84993,IHSS,1350,"Law, Values, And Public Policy",19,18,SAGE 4112
+84994,IHSS,1410,Century Of The Gene,19,17,CARNEG 106
+85520,IHSS,1430,Health Of Contemp Africa,19,7,LOW 3045
+85335,IHSS,1560,Media And Society,19,17,SAGE 2704
+85479,IHSS,1560,Media And Society,19,19,RCKTTS 208
+85480,IHSS,1560,Media And Society,19,19,RCKTTS 208
+85522,IHSS,1570,War & Tech Past/Pres/Future,25,24,SAGE 5711
+82246,IHSS,1610,Design And Innovation Studio I,29,29,SAGE 2211
+85354,IHSS,1666,Religion In A Global World,19,19,DARRIN 235
+85517,IHSS,1700,Songwriting Workshop,30,28,WEST 214
+85519,IHSS,1710,Popular Music & Society,19,17,WEST 326
+85515,IHSS,1720,Music And Nature,19,18,WEST 214
+85518,IHSS,1740,Western Music Appreciation,30,5,WEST 326
+85532,IHSS,1958,Tech & The Top Ten,19,5,WEST 118
+85533,IHSS,1959,Writing And Society,19,7,DARRIN 235
+84465,IHSS,1961,Designing Climate Justice,19,11,SAGE 2701
+84145,IHSS,1965,"Open Source Art,Music,Culture",19,8,WEST 112
+84146,IHSS,1965,"Open Source Art,Music,Culture",19,3,WEST 112
+85355,IHSS,1967,Revolutions In Perspective,19,19,VORHES SO
+85016,IHSS,1969,History Of Design,19,18,SAGE 3205
+85298,IHSS,1972,Ai And Society,100,98,SAGE 3510
+84519,IHSS,1973,"News Media, Culture & Politics",19,11,WEST 113
+85299,IHSS,1975,Understanding Empathy,19,18,SAGE 5711
+84573,IHSS,1976,Fiction From Film To Internet,19,18,SAGE 3205
+85524,IHSS,1978,The American Dream,19,5,SAGE 3205
+85525,IHSS,1978,The American Dream,19,9,SAGE 3205
+85526,IHSS,1981,"Race, Class, Gender & Tech",30,9,RCKTTS 212
+85527,IHSS,1985,Sociology Of Inequality,30,18,CARNEG 106
+85528,IHSS,1986,Tech & Soc Interact In Us Soci,19,18,CARNEG 206
+85529,IHSS,1987,Behind The Tv Screen,19,17,DARRIN 174
+85531,IHSS,1989,Remixing In Digital Culture,19,7,WEST 112
+85716,IHSS,6570,Research Methods,19,7,WEST 113
+84441,IHSS,6960,Digital Studies,30,11,SAGE 3713
+84408,ISCI,1600,Materials Science,5,0,WALKER 6113
+84409,ISCI,1600,Materials Science,5,1,WALKER 6113
+84411,ISCI,1600,Materials Science,5,1,WALKER 6113
+84410,ISCI,1600,Materials Science,5,5,WALKER 6113
+85458,ISCI,4510,Origins Of Life Seminar,24,8,J-ROWL 3W13
+83400,ISYE,1100,Intro To Isye,40,38,TROY 2018
+81001,ISYE,4140,Statistical Analysis,50,32,SAGE 5510
+84428,ISYE,4200,Desgn & Analys Work Sys,36,30,SAGE 4510
+83588,ISYE,4210,Desgn & Analys Of Supply Chain,45,33,SAGE 5510
+84434,ISYE,4260,Human Perf Modeling & Support,30,34,VORHES NO
+82497,ISYE,4270,Multidisciplinary Cap Design,0,4,JONSSN 3332
+82523,ISYE,4270,Multidisciplinary Cap Design,0,1,JONSSN 3332
+82678,ISYE,4270,Multidisciplinary Cap Design,0,6,JONSSN 3332
+82679,ISYE,4270,Multidisciplinary Cap Design,0,3,JONSSN 3332
+84903,ISYE,4280,Decision Focused Systems Engr,20,16,LOW 3112
+83590,ISYE,4290,"Discrete Event Sim,  Modeling",35,26,CARNEG 101
+83854,ISYE,4330,Design Of Experiments,20,9,LOW 3116
+81358,ISYE,4530,Information Systems,70,56,CARNEG 113
+82753,ISYE,4600,Operations Research Methods,50,28,LOW 3039
+85418,ISYE,4961,Applied Data Science,30,18,CARNEG 101
+83074,ISYE,6020,Design Of Experiments,30,8,LOW 3116
+85419,ISYE,6100,Time Series Analysis,30,7,LOW 3116
+85420,ISYE,6190,Intro To Big Data Analytics,20,3,DARRIN 232
+83589,ISYE,6600,Dsn Of Mfg Sys & Supply Chains,20,3,SAGE 5510
+82499,ISYE,6610,Systems Modeling In Dses,20,4,LOW 3039
+83591,ISYE,6620,Discrete Event Simulation,20,1,CARNEG 101
+82565,ITWS,1100,Intro To It & Web Science,30,34,LALLY 102
+84577,ITWS,1100,Intro To It & Web Science,30,28,LALLY 102
+83228,ITWS,2110,Web Systems Development,25,27,LALLY 102
+84771,ITWS,2110,Web Systems Development,30,30,VORHES SO
+81403,ITWS,4100,It & Web Science Capstone,30,20,LALLY 102
+81590,ITWS,4300,Business Issues For Engr & Sci,0,0,TROY 2018
+81359,ITWS,4310,Managing It Resources,30,28,LALLY 102
+83542,ITWS,4350,Data Science,4,5,LALLY 104
+84772,ITWS,4600,Data Analytics,0,2,VORHES SO
+85232,ITWS,4600,Data Analytics,10,5,LALLY 02
+84095,ITWS,4700,Software Development,20,5,J-ROWL 2C25
+84176,ITWS,4960,Itws Database Systems,5,0,LOW 3039
+85398,ITWS,4967,Modern Binary Exploitation,10,5,LOW 3112
+81591,ITWS,6300,Business Issues For Engr & Sci,17,18,TROY 2018
+83543,ITWS,6350,Data Science,18,17,LALLY 104
+85231,ITWS,6440,Big Data Policy,16,13,LALLY 104
+84773,ITWS,6600,Data Analytics,0,6,VORHES SO
+85250,ITWS,6600,Data Analytics,40,23,LALLY 02
+84094,ITWS,6700,Software Development,20,14,J-ROWL 2C25
+83099,ITWS,6800,It  Master's Capstone,30,7,LALLY 102
+84177,ITWS,6960,Itws Database Systems,25,27,LOW 3039
+83430,LANG,1410,Chinese I,10,9,SAGE 2704
+83553,LANG,1410,Chinese I,9,9,SAGE 2704
+84109,LANG,1410,Chinese I,10,8,SAGE 2701
+84366,LANG,1410,Chinese I,9,6,SAGE 2701
+84250,LANG,2410,Chinese Ii,19,19,CARNEG 205
+85339,LANG,4420,Chinese Iii,19,8,SAGE 4304
+84249,LANG,4430,Chinese Iv,19,9,PITTS 5114
+82021,LGHT,4230,Lighting Design,20,9,GURLEY
+83562,LGHT,4770,Lighting Tech & Applications,20,10,GURLEY
+84857,LGHT,4830,The Physics Of Light,12,0,GURLEY
+82022,LGHT,4840,Human Factors In Lighting,20,12,GURLEY
+85484,LGHT,6750,Lighting Research Design,5,2,NA
+82023,LGHT,6830,Physics Of Light,20,7,GURLEY
+85555,LGHT,6962,Ethical Consid In Ad,10,0,NA
+85556,LGHT,6962,Ethical Consid In Ad,10,0,NA
+85557,LGHT,6966,Perspectives In Alz Research,10,0,NA
+83554,LITR,2110,Intro To Literature,14,12,LOW 4034
+85235,LITR,2110,Intro To Literature,5,4,LOW 4034
+85516,LITR,2110,Intro To Literature,19,16,SAGE 4203
+85490,LITR,4410,Film Theory,19,20,SAGE 3705
+85574,LITR,4770,Women Writers,19,16,SAGE 2707
+84128,MANE,1090,Mechatronics Hardware/Software,12,12,LOW 4034
+85270,MANE,2110,Num Meth & Prog For Eng,51,49,SAGE 3101
+85273,MANE,2110,Num Meth & Prog For Eng,50,36,DARRIN 330
+84431,MANE,2220,Inventor's Studio 1,28,25,SAGE 2211
+84815,MANE,2220,Inventor's Studio 1,28,25,SAGE 2211
+85271,MANE,2710,Thermodynamics,300,99,SAGE 3303
+85272,MANE,2710,Thermodynamics,75,72,SAGE 4101
+85274,MANE,2720,Fluid Mechanics,60,52,WEST AUD
+84816,MANE,2830,Nuclear Phenomena For Engr,50,25,LALLY 104
+81431,MANE,4010,Thermal And Fluids Engr Ii,100,97,CARNEG 113
+81433,MANE,4020,Thermal & Fluids Eng Lab,12,12,DARRIN 308
+81434,MANE,4020,Thermal & Fluids Eng Lab,12,12,DARRIN 308
+81435,MANE,4020,Thermal & Fluids Eng Lab,11,11,DARRIN 308
+81436,MANE,4020,Thermal & Fluids Eng Lab,12,11,DARRIN 308
+81437,MANE,4020,Thermal & Fluids Eng Lab,12,10,DARRIN 308
+81438,MANE,4020,Thermal & Fluids Eng Lab,11,12,DARRIN 308
+81599,MANE,4020,Thermal & Fluids Eng Lab,11,9,DARRIN 308
+82103,MANE,4020,Thermal & Fluids Eng Lab,11,9,DARRIN 308
+83407,MANE,4020,Thermal & Fluids Eng Lab,11,9,DARRIN 308
+84817,MANE,4020,Thermal & Fluids Eng Lab,12,12,DARRIN 308
+84819,MANE,4020,Thermal & Fluids Eng Lab,12,12,DARRIN 308
+84820,MANE,4020,Thermal & Fluids Eng Lab,12,11,DARRIN 308
+81439,MANE,4030,Elements Of Mech Design,125,118,SAGE 3510
+82008,MANE,4040,Mechanical Systems Lab,24,24,JONSSN 1219
+82009,MANE,4040,Mechanical Systems Lab,24,24,JONSSN 1219
+82010,MANE,4040,Mechanical Systems Lab,25,24,JONSSN 1219
+82011,MANE,4040,Mechanical Systems Lab,24,22,JONSSN 1219
+83111,MANE,4040,Mechanical Systems Lab,25,24,JONSSN 1219
+83408,MANE,4040,Mechanical Systems Lab,25,23,JONSSN 1219
+81579,MANE,4050,Modeling And Contrl Of Dyn Sys,18,17,CARNEG 113
+81580,MANE,4050,Modeling And Contrl Of Dyn Sys,16,16,CARNEG 113
+81581,MANE,4050,Modeling And Contrl Of Dyn Sys,18,16,CARNEG 113
+82230,MANE,4050,Modeling And Contrl Of Dyn Sys,20,18,CARNEG 113
+83825,MANE,4050,Modeling And Contrl Of Dyn Sys,18,16,CARNEG 113
+84821,MANE,4050,Modeling And Contrl Of Dyn Sys,14,14,CARNEG 113
+84822,MANE,4050,Modeling And Contrl Of Dyn Sys,20,22,CARNEG 113
+84823,MANE,4050,Modeling And Contrl Of Dyn Sys,19,19,CARNEG 113
+84824,MANE,4050,Modeling And Contrl Of Dyn Sys,19,17,CARNEG 113
+84825,MANE,4050,Modeling And Contrl Of Dyn Sys,15,17,CARNEG 113
+83351,MANE,4060,Aerospace Struc & Materials,70,43,CARNEG 113
+84388,MANE,4070,Aerodynamics I,46,45,CARNEG 201
+84397,MANE,4080,Propulsion Systems,165,114,DARRIN 324
+81440,MANE,4090,Flight Mechanics,60,57,LOW 3051
+84130,MANE,4120,Heli Aerodynamic & Performance,50,13,TROY 2018
+85366,MANE,4160,Vibrations,35,10,TROY 2012
+81536,MANE,4220,Inv Studio 2: Rapid Proto Inno,0,33,SAGE 2211
+81441,MANE,4240,Intro To Finite Elements,0,44,TROY 2018
+85276,MANE,4240,Intro To Finite Elements,0,50,EATON 215
+85277,MANE,4240,Intro To Finite Elements,0,49,EATON 215
+81442,MANE,4260,Multidisciplinary Cap Design,0,20,JONSSN 3332
+81443,MANE,4260,Multidisciplinary Cap Design,0,23,JONSSN 3332
+81597,MANE,4260,Multidisciplinary Cap Design,0,27,JONSSN 3332
+82501,MANE,4260,Multidisciplinary Cap Design,0,27,JONSSN 3332
+84167,MANE,4280,Numerical Design Optimization,40,35,SAGE 3101
+81450,MANE,4370,Nuclear Engineering Lab,33,25,RCKTTS 212
+81451,MANE,4380,Nuclear Eng Senior Dsgn Proj I,33,26,LOW 4040
+85279,MANE,4400,Nuclear Power Syst Engr,33,16,CARNEG 210
+85280,MANE,4470,Radiological Engineering,33,21,RCKTTS 212
+85281,MANE,4480,Physics Of Nuclear Reactors,33,20,CARNEG 208
+85337,MANE,4500,Modeling And Contrl Of Dyn Sys,10,7,CARNEG 113
+85338,MANE,4500,Modeling And Contrl Of Dyn Sys,9,7,CARNEG 113
+85367,MANE,4520,Mechatronics,0,27,JONSSN 4304
+85282,MANE,4530,Control System Engineering,5,3,JONSSN 4107
+81445,MANE,4670,Mech Behavior Of Materials,40,37,LOW 3045
+85336,MANE,4730,Heat Transfer,40,9,EATON 216
+82929,MANE,4760,"Heating, Ventilation & Ac",30,23,LOW 4034
+81527,MANE,4800,Bound Lay & Heat Trans,160,85,SAGE 3510
+82581,MANE,4850,Space Vehicle Design,30,36,VORHES SO
+84389,MANE,4850,Space Vehicle Design,30,30,TROY 2015
+84390,MANE,4900,Aero. & Struct. Vibrations,60,54,SAGE 4101
+81446,MANE,4910,Fluid Dynamics Lab,10,12,JONSSN 2220
+81592,MANE,4910,Fluid Dynamics Lab,10,12,JONSSN 2220
+81593,MANE,4910,Fluid Dynamics Lab,10,10,JONSSN 2220
+81594,MANE,4910,Fluid Dynamics Lab,10,10,JONSSN 2220
+84908,MANE,4910,Fluid Dynamics Lab,10,10,JONSSN 2220
+84909,MANE,4910,Fluid Dynamics Lab,10,10,JONSSN 2220
+84391,MANE,4920,Aero Struct & Control Lab,30,27,JONSSN 5119
+85283,MANE,4920,Aero Struct & Control Lab,30,26,JONSSN 3207
+84923,MANE,4960,Multirotor Areal Vehicles,30,7,DARRIN 239
+84393,MANE,4961,Propulsion Systems,0,0,DARRIN 324
+85368,MANE,4963,Intro To Radiation Transport,30,4,DARRIN 235
+84127,MANE,4964,Reactor Reliability & Safety,30,17,TROY 2015
+85370,MANE,4965,Intro To Wind Energy,25,14,CARNEG 210
+85284,MANE,6110,Kinematic Synthesis,30,10,JONSSN 3207
+83557,MANE,6120,Robotics I,30,1,TROY 2018
+82673,MANE,6170,Mechanics Of Solids,30,21,LOW 3112
+84133,MANE,6230,Adv. Manufacturing Proc & Sys,20,17,JONSSN 3207
+85288,MANE,6290,Radiation Transport Methods,30,8,DARRIN 235
+84827,MANE,6360,Reliability & Safety,30,3,TROY 2015
+84131,MANE,6520,Fluid Mechanics,32,27,LOW 3045
+85285,MANE,6570,Aerodynamic Flow Control,30,17,LOW 4040
+83826,MANE,6600,Systems Analysis Techniques,40,16,JONSSN 4107
+85286,MANE,6630,Conduction Heat Transfer,30,17,DARRIN 236
+81447,MANE,6660,Fundamentals Of Finite Element,40,37,RCKTTS 212
+85278,MANE,6710,Numerical Design Optimization,20,10,SAGE 3101
+85287,MANE,6720,Computational Fluid Dynamics,30,7,CARNEG 206
+81448,MANE,6900,Graduate Seminar,170,164,DARRIN 330
+84862,MANE,6960,Multirotor Areal Vehicles,30,7,DARRIN 239
+83384,MATH,1010,Calculus I,15,15,WEST AUD
+83385,MATH,1010,Calculus I,15,15,WEST AUD
+83386,MATH,1010,Calculus I,15,15,WEST AUD
+83387,MATH,1010,Calculus I,15,15,WEST AUD
+83388,MATH,1010,Calculus I,15,15,WEST AUD
+83389,MATH,1010,Calculus I,15,14,WEST AUD
+83390,MATH,1010,Calculus I,15,15,WEST AUD
+83391,MATH,1010,Calculus I,15,15,WEST AUD
+81299,MATH,1010,Calculus I,15,14,EATON 214
+81300,MATH,1010,Calculus I,15,15,EATON 214
+81301,MATH,1010,Calculus I,15,16,EATON 214
+81234,MATH,1010,Calculus I,15,14,EATON 214
+81317,MATH,1010,Calculus I,15,15,EATON 214
+81318,MATH,1010,Calculus I,15,15,EATON 214
+81319,MATH,1010,Calculus I,15,15,EATON 214
+81320,MATH,1010,Calculus I,15,15,EATON 214
+81160,MATH,1010,Calculus I,15,12,DARRIN 330
+82020,MATH,1010,Calculus I,15,13,DARRIN 330
+81302,MATH,1010,Calculus I,15,16,DARRIN 330
+81584,MATH,1010,Calculus I,15,13,DARRIN 330
+82017,MATH,1010,Calculus I,15,14,DARRIN 330
+81488,MATH,1010,Calculus I,15,13,DARRIN 330
+81489,MATH,1010,Calculus I,15,14,DARRIN 330
+81490,MATH,1010,Calculus I,15,13,DARRIN 330
+83224,MATH,1010,Calculus I,15,14,EATON 214
+83225,MATH,1010,Calculus I,15,13,EATON 214
+83226,MATH,1010,Calculus I,15,14,EATON 214
+83227,MATH,1010,Calculus I,15,14,EATON 214
+83372,MATH,1010,Calculus I,15,13,EATON 214
+83373,MATH,1010,Calculus I,15,13,EATON 214
+83374,MATH,1010,Calculus I,15,11,EATON 214
+83375,MATH,1010,Calculus I,15,12,EATON 214
+83376,MATH,1010,Calculus I,15,11,WEST AUD
+83377,MATH,1010,Calculus I,15,13,WEST AUD
+83378,MATH,1010,Calculus I,15,14,WEST AUD
+83379,MATH,1010,Calculus I,15,15,WEST AUD
+83380,MATH,1010,Calculus I,15,12,WEST AUD
+83382,MATH,1010,Calculus I,15,14,WEST AUD
+83381,MATH,1010,Calculus I,15,15,WEST AUD
+83383,MATH,1010,Calculus I,15,15,WEST AUD
+81101,MATH,1010,Calculus I,15,14,WEST AUD
+81102,MATH,1010,Calculus I,15,15,WEST AUD
+83446,MATH,1010,Calculus I,15,15,WEST AUD
+83447,MATH,1010,Calculus I,15,14,WEST AUD
+84139,MATH,1010,Calculus I,15,14,WEST AUD
+84140,MATH,1010,Calculus I,15,14,WEST AUD
+84141,MATH,1010,Calculus I,15,15,WEST AUD
+84142,MATH,1010,Calculus I,15,15,WEST AUD
+84245,MATH,1010,Calculus I,15,14,WEST AUD
+84246,MATH,1010,Calculus I,15,13,WEST AUD
+83448,MATH,1010,Calculus I,15,7,WEST AUD
+83449,MATH,1010,Calculus I,15,12,WEST AUD
+81103,MATH,1020,Calculus Ii,30,28,DARRIN 330
+81104,MATH,1020,Calculus Ii,30,29,DARRIN 330
+81105,MATH,1020,Calculus Ii,30,30,DARRIN 330
+81106,MATH,1020,Calculus Ii,30,26,DARRIN 330
+81107,MATH,1020,Calculus Ii,30,24,SAGE 3303
+81108,MATH,1020,Calculus Ii,30,28,SAGE 3303
+81109,MATH,1020,Calculus Ii,30,27,SAGE 3303
+81110,MATH,1020,Calculus Ii,30,24,SAGE 3303
+81231,MATH,1020,Calculus Ii,30,28,SAGE 3510
+81232,MATH,1020,Calculus Ii,30,28,SAGE 3510
+81303,MATH,1020,Calculus Ii,30,21,SAGE 3510
+81235,MATH,1020,Calculus Ii,30,19,SAGE 3510
+81161,MATH,1020,Calculus Ii,30,32,RCKTTS 203
+81162,MATH,1020,Calculus Ii,30,29,RCKTTS 203
+81164,MATH,1020,Calculus Ii,30,29,RCKTTS 203
+81163,MATH,1020,Calculus Ii,30,30,RCKTTS 203
+84106,MATH,1020,Calculus Ii,30,28,DARRIN 330
+84107,MATH,1020,Calculus Ii,30,29,DARRIN 330
+84135,MATH,1020,Calculus Ii,30,31,DARRIN 330
+84136,MATH,1020,Calculus Ii,30,19,DARRIN 330
+81111,MATH,1500,"Calc I For Arch, Mgmt &  Hass",30,22,ACADMY AUD
+81112,MATH,1500,"Calc I For Arch, Mgmt &  Hass",30,27,ACADMY AUD
+82019,MATH,1500,"Calc I For Arch, Mgmt &  Hass",30,30,ACADMY AUD
+81194,MATH,1500,"Calc I For Arch, Mgmt &  Hass",30,26,ACADMY AUD
+81113,MATH,1900,Art & Science Of Math I,70,68,WALKER 6113
+81114,MATH,2010,Multivar Calc & Matrix Algebra,30,30,EATON 214
+81115,MATH,2010,Multivar Calc & Matrix Algebra,30,30,EATON 214
+81116,MATH,2010,Multivar Calc & Matrix Algebra,30,31,EATON 214
+81117,MATH,2010,Multivar Calc & Matrix Algebra,30,31,EATON 214
+81366,MATH,2010,Multivar Calc & Matrix Algebra,33,28,EATON 214
+81364,MATH,2010,Multivar Calc & Matrix Algebra,33,30,EATON 214
+82912,MATH,2010,Multivar Calc & Matrix Algebra,33,31,EATON 214
+81365,MATH,2010,Multivar Calc & Matrix Algebra,33,33,EATON 214
+82674,MATH,2010,Multivar Calc & Matrix Algebra,35,34,DARRIN 330
+82675,MATH,2010,Multivar Calc & Matrix Algebra,35,34,DARRIN 330
+82676,MATH,2010,Multivar Calc & Matrix Algebra,35,31,DARRIN 330
+82677,MATH,2010,Multivar Calc & Matrix Algebra,35,30,DARRIN 330
+82949,MATH,2010,Multivar Calc & Matrix Algebra,30,22,EATON 214
+82950,MATH,2010,Multivar Calc & Matrix Algebra,30,28,EATON 214
+83052,MATH,2010,Multivar Calc & Matrix Algebra,30,31,EATON 214
+83053,MATH,2010,Multivar Calc & Matrix Algebra,30,28,EATON 214
+83821,MATH,2010,Multivar Calc & Matrix Algebra,35,34,DARRIN 324
+83822,MATH,2010,Multivar Calc & Matrix Algebra,35,35,DARRIN 324
+83823,MATH,2010,Multivar Calc & Matrix Algebra,35,36,DARRIN 324
+83824,MATH,2010,Multivar Calc & Matrix Algebra,35,34,DARRIN 324
+84376,MATH,2010,Multivar Calc & Matrix Algebra,35,35,DARRIN 324
+84377,MATH,2010,Multivar Calc & Matrix Algebra,35,35,DARRIN 324
+84378,MATH,2010,Multivar Calc & Matrix Algebra,35,35,DARRIN 324
+84379,MATH,2010,Multivar Calc & Matrix Algebra,35,34,DARRIN 324
+81524,MATH,2400,Intro Diff Equations,35,27,DARRIN 318
+81118,MATH,2400,Intro Diff Equations,35,32,DARRIN 318
+81119,MATH,2400,Intro Diff Equations,35,31,DARRIN 318
+81120,MATH,2400,Intro Diff Equations,35,32,DARRIN 318
+81121,MATH,2400,Intro Diff Equations,30,31,DARRIN 318
+81122,MATH,2400,Intro Diff Equations,30,29,DARRIN 318
+81274,MATH,2400,Intro Diff Equations,30,30,DARRIN 318
+81123,MATH,2400,Intro Diff Equations,30,30,DARRIN 318
+81124,MATH,2400,Intro Diff Equations,30,32,RCKTTS 203
+81125,MATH,2400,Intro Diff Equations,30,29,RCKTTS 203
+81126,MATH,2400,Intro Diff Equations,30,34,RCKTTS 203
+81127,MATH,2400,Intro Diff Equations,30,29,RCKTTS 203
+81304,MATH,2400,Intro Diff Equations,30,31,EATON 214
+81305,MATH,2400,Intro Diff Equations,30,32,EATON 214
+81525,MATH,2400,Intro Diff Equations,30,34,EATON 214
+82018,MATH,2400,Intro Diff Equations,30,30,EATON 214
+81397,MATH,2400,Intro Diff Equations,32,33,DARRIN 324
+81398,MATH,2400,Intro Diff Equations,32,32,DARRIN 324
+81399,MATH,2400,Intro Diff Equations,32,32,DARRIN 324
+81400,MATH,2400,Intro Diff Equations,32,32,DARRIN 324
+84098,MATH,2400,Intro Diff Equations,30,30,EATON 214
+84099,MATH,2400,Intro Diff Equations,30,27,EATON 214
+84137,MATH,2400,Intro Diff Equations,30,30,EATON 214
+84138,MATH,2400,Intro Diff Equations,30,29,EATON 214
+82248,MATH,4090,Foundations Of Analysis,30,33,DARRIN 337
+84380,MATH,4090,Foundations Of Analysis,30,33,DARRIN 337
+81128,MATH,4100,Linear Algebra,80,113,DARRIN 337
+81129,MATH,4200,Mathematical Analysis I,30,23,DARRIN 239
+81137,MATH,4400,Ordinary Diffeq And Dynamical,40,36,SAGE 5510
+81130,MATH,4600,Advanced Calculus,70,76,LOW 4050
+85543,MATH,4600,Advanced Calculus,40,37,CARNEG 106
+81138,MATH,4700,Foundations Of Applied Math,60,38,EATON 214
+83049,MATH,4720,Math In Medicine & Biol,30,27,EATON 216
+81583,MATH,4740,Intro To Finl Math And Engr,30,15,CARNEG 208
+81131,MATH,4800,Numerical Computing,70,52,DARRIN 337
+83054,MATH,4800,Numerical Computing,70,59,SAGE 3510
+84168,MATH,4950,Senior Research,0,0,GREENE 120
+85255,MATH,6220,Applied Functional Analysis,20,4,CARNEG 201
+81132,MATH,6500,Partial Differential Equations,30,14,CARNEG 208
+81133,MATH,6600,Methods Of Applied Mathematics,30,21,LALLY 02
+85256,MATH,6660,Stochastic Proc. And Modeling,30,13,CARNEG 201
+81529,MATH,6800,Computational Lin Algebra,40,35,CARNEG 113
+85381,MATH,6890,Num Methods Fluid & Solid Mech,30,6,CARNEG 101
+81193,MATH,6950,Teaching Seminar For Ta's,48,19,EATON 216
+81134,MATP,4600,Prob Theory & Applications,60,47,RCKTTS 211
+81135,MATP,4700,Math Models Of Operations,50,45,SAGE 5510
+85431,MATP,4960,Data Analytics,5,4,VORHES SO
+81136,MATP,6600,Introduction To Optimization,30,22,CARNEG 210
+85383,MATP,6960,Stochastic Optimization Method,30,14,J-ROWL 1W01
+81068,MGMT,1100,Intro To Management,32,32,LOW 3130
+83364,MGMT,1100,Intro To Management,35,21,SAGE 3704
+81069,MGMT,1100,Intro To Management,35,34,JONSSN 3210
+81070,MGMT,1100,Intro To Management,35,34,PITTS 4206
+83365,MGMT,1100,Intro To Management,35,35,SAGE 4112
+83456,MGMT,1100,Intro To Management,35,32,PITTS 4206
+81360,MGMT,1240,Mgmt Professional Dev I,42,41,LOW 3039
+81361,MGMT,1240,Mgmt Professional Dev I,45,40,LOW 3039
+81071,MGMT,1260,Business Law And Ethics,40,25,PITTS 5216
+84101,MGMT,1260,Business Law And Ethics,30,24,PITTS 5216
+81310,MGMT,2100,Statistical Methods,40,42,SAGE 3704
+84188,MGMT,2100,Statistical Methods,40,31,PITTS 4114
+83416,MGMT,2300,Financial Accounting,38,26,LOW 3045
+81072,MGMT,2300,Financial Accounting,34,24,PITTS 5216
+81073,MGMT,2300,Financial Accounting,38,34,CARNEG 106
+81388,MGMT,2320,Managerial Finance,30,31,DARRIN 239
+83573,MGMT,2430,Marketing Principles,35,32,PITTS 5114
+83574,MGMT,2430,Marketing Principles,35,26,PITTS 5114
+82231,MGMT,2510,Intro To Data Mgmt & Analytics,40,40,PITTS 5216
+82495,MGMT,2510,Intro To Data Mgmt & Analytics,40,39,PITTS 4114
+81522,MGMT,4100,Quantitative Methods For Bus,32,27,VORHES NO
+81523,MGMT,4100,Quantitative Methods For Bus,30,8,CARNEG 206
+81485,MGMT,4110,Operations Management,35,13,SAGE 3713
+85225,MGMT,4110,Operations Management,35,22,SAGE 3713
+81350,MGMT,4140,Computer Info Systems,30,23,LOW 3116
+83828,MGMT,4170,Data Resource Management,30,30,PITTS 4114
+81351,MGMT,4240,Systems Analysis & Design,30,12,SAGE 4510
+81075,MGMT,4320,Investments I,31,13,RCKTTS 212
+83371,MGMT,4340,Adv Corporate Finance,30,24,SAGE 2704
+85512,MGMT,4420,Student Managed Invest Fund,15,7,PITTS 5114
+83890,MGMT,4460,Consumer Behavior And Prod Dsn,20,13,SAGE 2715
+83244,MGMT,4470,Marketing Research,30,18,LOW 4040
+81352,MGMT,4510,"Invention, Innov & Entrepren",13,12,PITTS 5114
+81076,MGMT,4850,Org Behavior In High Perf Org,30,29,EATON 216
+81077,MGMT,4860,Hr In High Performance Orgs,30,28,PITTS 5216
+81078,MGMT,4860,Hr In High Performance Orgs,30,23,PITTS 5114
+81079,MGMT,4870,Strategy And Policy,30,30,DARRIN 232
+83433,MGMT,4870,Strategy And Policy,30,22,DARRIN 235
+84497,MGMT,4961,"Engineering, Science & Mgmt",50,27,PITTS 4206
+85433,MGMT,4962,Data Analytics,10,1,VORHES SO
+82706,MGMT,6020,Financial Management I,52,31,PITTS 4206
+82025,MGMT,6040,Talent Management,50,35,PITTS 5216
+81546,MGMT,6060,Business Impl. Of Emerg. Tech,36,25,SAGE 3705
+84091,MGMT,6080,"Netw, Innov & Value Creation I",40,15,PITTS 4114
+82911,MGMT,6100,Stats For Mangrl Decision Mkng,65,60,LOW 3051
+83393,MGMT,6100,Stats For Mangrl Decision Mkng,65,38,LOW 3051
+83398,MGMT,6190,Intro To Acct & Fin Mgmt,54,45,PITTS 4206
+82509,MGMT,6240,Financl Trading And Investing,52,17,PITTS 4206
+83221,MGMT,6370,Derivatives Markets,45,26,PITTS 4114
+82917,MGMT,6410,Investments,23,17,PITTS 5216
+85562,MGMT,6420,Student Managed Invest Fund,15,1,PITTS 5114
+84261,MGMT,6460,Adv Quant Methods For Business,55,36,PITTS 4114
+85510,MGMT,6460,Adv Quant Methods For Business,55,39,PITTS 4114
+83395,MGMT,6490,Comp Advant & Operations Strat,45,10,PITTS 4114
+83457,MGMT,6510,Financial Computation,55,29,PITTS 4114
+83397,MGMT,6520,Financial Modeling,65,40,DARRIN 337
+84351,MGMT,6550,Marketing Research,25,1,LOW 4040
+84259,MGMT,6560,Intro To Machine Learning Apps,55,53,RCKTTS 211
+85497,MGMT,6560,Intro To Machine Learning Apps,50,28,PITTS 5216
+85449,MGMT,6570,Adv Data Resource Management,25,21,PITTS 4114
+84262,MGMT,6570,Adv Data Resource Management,50,45,PITTS 4114
+85498,MGMT,6570,Adv Data Resource Management,50,28,PITTS 4114
+85226,MGMT,6580,Marketing High   Tech Prod,45,26,PITTS 5216
+82027,MGMT,6640,"Invention, Innov & Entrepren",17,13,PITTS 5114
+84258,MGMT,6800,Consumer Behavio/ Prod Design,20,2,SAGE 2715
+84102,MGMT,6840,Practicum In Management,20,4,SAGE 4203
+85331,MGMT,6960,Intellectual Property Law,25,15,PITTS 4206
+85434,MGMT,6962,Data Analytics,15,11,VORHES SO
+84103,MGMT,7030,"Strategy, Tech & Competition I",36,7,PITTS 4206
+81981,MGMT,7230,Prof Development Workshop I,36,18,PITTS 5114
+82033,MGMT,7730,Economics And Institutions,40,20,PITTS 4114
+82034,MGMT,7740,Acct For Reporting And Control,54,33,PITTS 5216
+84255,MGMT,7770,Prof Dev Workshop I  Ms,36,32,PITTS 5216
+84256,MGMT,7770,Prof Dev Workshop I  Ms,36,32,PITTS 5216
+84257,MGMT,7770,Prof Dev Workshop I  Ms,36,21,PITTS 5216
+84798,MGMT,7800,Doctoral Research Methods I,30,6,PITTS 4114
+84352,MGMT,7820,Foundations Of Mgmt Thought,30,7,JONSSN 5119
+84254,MGMT,7840,Empirical Issues,20,5,PITTS 5114
+83287,MTLE,1200,Intro To Materials Engineering,45,38,JONSSN 5119
+84430,MTLE,2100,Structure Of Materials,40,26,RCKTTS 212
+81291,MTLE,4050,Introduction To Polymers,60,28,LOW 3051
+85303,MTLE,4150,Kinetics In Materials Systems,35,25,DARRIN 236
+85306,MTLE,4430,Fun Of Metallurgical Alloy Sys,25,11,MATLS 136
+85305,MTLE,4500,Computational Materials Design,35,23,CARNEG 106
+82926,MTLE,4920,Multidisciplinary Cap Design,0,2,JONSSN 3332
+82927,MTLE,4920,Multidisciplinary Cap Design,0,3,JONSSN 3332
+83078,MTLE,4920,Multidisciplinary Cap Design,0,0,JONSSN 3332
+83079,MTLE,4920,Multidisciplinary Cap Design,0,3,JONSSN 3332
+82239,MTLE,6030,Advanced Thermodynamics,28,20,MATLS 136
+85703,MTLE,6050,Introduction To Polymers,60,9,LOW 3051
+82517,MTLE,6250,Advanced Mechanical Properties,28,20,MATLS 136
+83229,MTLE,6460,Advanced Structure & Bonding,28,13,MATLS 136
+85459,MTLE,6840,Polymer Engineering,10,8,VORHES NO
+81190,MTLE,6900,Graduate Seminar,45,11,LOW 3051
+85405,MTLE,6964,Metallurgical Alloy Systems,25,7,MATLS 136
+81353,PHIL,1110,Intro To Philosophy,49,49,CARNEG 201
+82527,PHIL,2140,Introduction To Logic,150,137,DARRIN 330
+85188,PHIL,2400,Philosophy Of Biology,25,23,CARNEG 210
+85192,PHIL,4130,Philosophy Of Science,25,25,CARNEG 208
+84475,PHIL,4480,Metaphysics And Consciousness,14,12,SAGE 4112
+84765,PHIL,4480,Metaphysics And Consciousness,13,16,SAGE 4112
+85193,PHIL,4500,Bioethics,35,30,LOW 3039
+81053,PHYS,1010,A Passion For Physics,90,53,RCKTTS 203
+81054,PHYS,1100,Physics I,36,47,J-ROWL 2C06
+81055,PHYS,1100,Physics I,48,47,J-ROWL 2C06
+81056,PHYS,1100,Physics I,48,45,J-ROWL 2C06
+82518,PHYS,1100,Physics I,48,48,J-ROWL 2C30
+81057,PHYS,1100,Physics I,48,48,J-ROWL 2C06
+81058,PHYS,1100,Physics I,48,47,J-ROWL 2C06
+81233,PHYS,1100,Physics I,48,47,J-ROWL 2C06
+81236,PHYS,1100,Physics I,48,45,J-ROWL 2C06
+82035,PHYS,1100,Physics I,48,44,J-ROWL 2C06
+82036,PHYS,1100,Physics I,48,47,J-ROWL 2C30
+82519,PHYS,1100,Physics I,48,45,J-ROWL 2C30
+82566,PHYS,1100,Physics I,48,46,J-ROWL 2C30
+83912,PHYS,1100,Physics I,48,45,J-ROWL 2C30
+84171,PHYS,1100,Physics I,48,48,J-ROWL 2C30
+84242,PHYS,1100,Physics I,48,31,J-ROWL 2C30
+82521,PHYS,1150,Physics I Honors,46,25,SAGE 3510
+82522,PHYS,1150,Physics I Honors,46,36,SAGE 3510
+84251,PHYS,1150,Physics I Honors,46,25,SAGE 3510
+81059,PHYS,1200,Physics Ii,48,44,DARRIN 308
+81363,PHYS,1200,Physics Ii,48,45,DARRIN 308
+81060,PHYS,1200,Physics Ii,48,44,DARRIN 308
+81061,PHYS,1200,Physics Ii,48,39,DARRIN 308
+81065,PHYS,1200,Physics Ii,48,42,DARRIN 308
+84241,PHYS,1200,Physics Ii,48,2,DARRIN 308
+81062,PHYS,1200,Physics Ii,48,40,DARRIN 318
+83072,PHYS,1200,Physics Ii,48,23,DARRIN 318
+81063,PHYS,1200,Physics Ii,48,45,DARRIN 318
+84540,PHYS,1200,Physics Ii,48,12,DARRIN 318
+84404,PHYS,1600,Materials Science,5,2,WALKER 6113
+84405,PHYS,1600,Materials Science,5,1,WALKER 6113
+84406,PHYS,1600,Materials Science,5,2,WALKER 6113
+84407,PHYS,1600,Materials Science,5,1,WALKER 6113
+84213,PHYS,1960,Physics Mentoring For Freshmen,40,41,CARNEG 102
+84214,PHYS,1960,Physics Mentoring For Freshmen,40,39,CARNEG 102
+84215,PHYS,1960,Physics Mentoring For Freshmen,40,39,CARNEG 102
+84216,PHYS,1960,Physics Mentoring For Freshmen,40,39,CARNEG 102
+84217,PHYS,1960,Physics Mentoring For Freshmen,40,40,RCKTTS 208
+84218,PHYS,1960,Physics Mentoring For Freshmen,40,39,RCKTTS 208
+84219,PHYS,1960,Physics Mentoring For Freshmen,40,39,RCKTTS 208
+84220,PHYS,1960,Physics Mentoring For Freshmen,40,37,CARNEG 102
+84221,PHYS,1960,Physics Mentoring For Freshmen,40,40,RCKTTS 208
+84222,PHYS,1960,Physics Mentoring For Freshmen,40,40,J-ROWL 1W01
+84223,PHYS,1960,Physics Mentoring For Freshmen,40,28,CARNEG 102
+84224,PHYS,1960,Physics Mentoring For Freshmen,40,11,CARNEG 102
+84225,PHYS,1960,Physics Mentoring For Freshmen,40,38,RCKTTS 208
+84226,PHYS,1960,Physics Mentoring For Freshmen,40,38,LOW 3039
+84227,PHYS,1960,Physics Mentoring For Freshmen,40,39,CARNEG 102
+84228,PHYS,1960,Physics Mentoring For Freshmen,40,38,RCKTTS 208
+84790,PHYS,1961,Prof. Development   Physicists,48,35,J-ROWL 2C22
+83354,PHYS,2210,Quantum Physics I,110,93,ACADMY AUD
+83414,PHYS,2350,Experimental Physics,20,20,J-ROWL
+82762,PHYS,2960,Practicum In College Teaching,50,44,J-ROWL 2C14
+84787,PHYS,4210,Electromagnetic Theory,48,31,CARNEG 201
+84496,PHYS,4620,Elementary Particle Physics,20,13,J-ROWL 1W01
+81066,PHYS,4720,Solid State Physics,30,13,CARNEG 101
+85409,PHYS,4965,Mathematical Physics,15,4,J-ROWL 1W01
+82243,PHYS,6510,Quantum Mechanics I,30,24,J-ROWL 2C25
+82242,PHYS,6590,Statistical Mechanics,35,15,J-ROWL 2C13
+81453,PHYS,6900,Colloquium,40,19,LOW 3051
+81479,PSYC,1200,General Psychology,400,189,DARRIN 308
+81097,PSYC,1200,General Psychology,400,202,DARRIN 308
+85195,PSYC,2220,Human Factors In Design,35,34,SAGE 4510
+85196,PSYC,2310,Research Methods & Stats I,19,19,SAGE 4510
+85197,PSYC,2310,Research Methods & Stats I,11,9,SAGE 4510
+81098,PSYC,2730,Social Psychology,80,74,ACADMY AUD
+81563,PSYC,2800,Intro To Sports Psychology,200,194,DARRIN 318
+81389,PSYC,4110,Motivation & Performance,30,31,DARRIN 236
+83047,PSYC,4200,Industrial & Org'l Psychology,49,47,GREENE 120
+84767,PSYC,4200,Industrial & Org'l Psychology,11,5,GREENE 120
+84780,PSYC,4310,Research Methods & Stats Ii,20,12,SAGE 2112
+84781,PSYC,4310,Research Methods & Stats Ii,5,2,SAGE 2112
+82007,PSYC,4370,Cognitive Psychology,50,50,DARRIN 318
+84956,PSYC,4370,Cognitive Psychology,30,28,DARRIN 318
+83399,PSYC,4400,Personality,40,38,TROY 2012
+85424,PSYC,4500,Drugs Society & Behavior,110,101,LOW 4050
+85194,PSYC,4700,"Hormones, Brain & Behavior",9,12,SAGE 4203
+85425,PSYC,4720,Abnormal Psychology,18,13,LOW 4040
+84387,PSYC,4730,Positive Psychology,154,159,SAGE 3510
+84788,PSYC,4730,Positive Psychology,6,6,SAGE 3510
+81564,PSYC,4740,Psychology And The Law,60,59,CARNEG 113
+83835,PSYC,4961,Mindfulness,10,11,LOW 3045
+84889,PSYC,4961,Mindfulness,7,7,LOW 3045
+85446,PSYC,4961,Mindfulness,19,17,LOW 3045
+84535,PSYC,4962,Physics Meets Social Science,16,19,CARNEG 205
+84537,PSYC,4963,Models Of Mental Processes,45,46,CARNEG 206
+81041,STSH,1110,"Science, Technology & Society",19,18,SAGE 3713
+82513,STSH,1110,"Science, Technology & Society",19,17,SAGE 3713
+83556,STSH,1110,"Science, Technology & Society",19,16,SAGE 3704
+85315,STSH,2500,American History,38,29,SAGE 5510
+84235,STSH,2960,Environment & Society,19,7,SAGE 4203
+84518,STSH,2961,Social Demo: Society By Number,30,13,SAGE 2112
+85464,STSH,4250,Bioethics,35,6,LOW 3039
+85485,STSH,4420,History Of Medicine,19,11,SAGE 4203
+82240,STSH,4610,Design And Innovation Studio B,30,11,SAGE 2211
+85241,STSH,4800,Public Service Internship,9,5,SAGE 4510
+84481,STSH,4961,Sustainability By Design,19,7,SAGE 2701
+85489,STSH,4964,Technologies Of The Body,19,5,VORHES NO
+85428,STSH,4970,Dsgn & Innovation Senior Proj,19,12,SAGE 4203
+81165,STSS,1110,"Science, Tech And Society",19,15,J-ROWL 2C22
+82512,STSS,1110,"Science, Tech And Society",19,16,SAGE 3704
+85559,STSS,1110,"Science, Tech And Society",19,17,J-ROWL 2C22
+85560,STSS,1110,"Science, Tech And Society",19,10,SAGE 4711
+85465,STSS,2100,Investigating Society,19,18,SAGE 2510
+85242,STSS,2300,Environment And Society,19,13,SAGE 4203
+84996,STSS,2510,Cultural Anthropology,29,28,SAGE 4101
+84995,STSS,2520,Sociology,50,49,LALLY 104
+84517,STSS,2961,Social Demo: Society By Number,30,8,SAGE 2112
+85344,STSS,4100,Pd2 Tech Issues & Solutions,35,32,CARNEG 208
+85345,STSS,4100,Pd2 Tech Issues & Solutions,35,35,JONSSN 4304
+85346,STSS,4100,Pd2 Tech Issues & Solutions,35,29,JONSSN 4304
+85347,STSS,4100,Pd2 Tech Issues & Solutions,35,30,CARNEG 201
+85348,STSS,4100,Pd2 Tech Issues & Solutions,30,16,CARNEG 201
+85349,STSS,4100,Pd2 Tech Issues & Solutions,35,35,CARNEG 101
+85350,STSS,4100,Pd2 Tech Issues & Solutions,35,35,CARNEG 101
+85351,STSS,4100,Pd2 Tech Issues & Solutions,35,29,CARNEG 106
+85352,STSS,4100,Pd2 Tech Issues & Solutions,35,32,CARNEG 101
+85353,STSS,4100,Pd2 Tech Issues & Solutions,35,28,CARNEG 101
+85384,STSS,4100,Pd2 Tech Issues & Solutions,30,12,DARRIN 232
+85385,STSS,4100,Pd2 Tech Issues & Solutions,35,30,DARRIN 232
+85386,STSS,4100,Pd2 Tech Issues & Solutions,35,33,DARRIN 232
+85387,STSS,4100,Pd2 Tech Issues & Solutions,30,18,DARRIN 232
+85388,STSS,4100,Pd2 Tech Issues & Solutions,35,30,DARRIN 232
+85358,STSS,4350,Politics Of Design,19,19,J-ROWL 2C13
+84777,STSS,4800,Public Service Internship,19,10,SAGE 4510
+84469,STSS,4961,Sustainability By Design,19,11,SAGE 2701
+84148,STSS,4963,Resilience Planning,19,14,SAGE 2707
+85488,STSS,4964,Technologies Of The Body,19,2,VORHES NO
+85429,STSS,4970,Dsgn & Innovation Senior Proj,19,2,SAGE 4203
+85160,STSS,4980,Research Design,19,15,VORHES SO
+85243,STSS,6040,Technology Studies,19,15,SAGE 5711
+85244,STSS,6200,Science Studies,10,11,SAGE 5711
+85321,STSS,6960,Sts Research Design,19,3,VORHES SO
+81191,USAF,10,Leadership Lab,80,54,LOW 4050
+81213,USAF,1010,Air And Space Studies 100 A,35,28,LOW 3116
+81214,USAF,2030,Air And Space Studies 200 A,35,13,DARRIN 232
+81215,USAF,2050,Air And Space Studies 300 A,35,14,LOW 3116
+81216,USAF,2070,Air And Space Studies 400 A,35,10,DARRIN 232
+82731,USAR,10,Fundamentals Of Mil Sci Lab I,25,8,NA
+82732,USAR,30,Applied Leadership Lab I,25,8,NA
+82733,USAR,50,Appl Military Leadership Lab I,25,3,NA
+82734,USAR,70,Adv Milt Mgmt Leadership Lab I,25,4,NA
+81172,USAR,1010,Fund Of Military Sci I,25,9,ARMORY 209
+81173,USAR,2010,Applied Leadership I,25,9,ARMORY 209
+81174,USAR,2060,Applied Mil Leadership I,20,4,ARMORY 209
+81175,USAR,4010,Adv Military Mgmt & Leader I,20,4,ARMORY 407
+85454,USAR,4010,Adv Military Mgmt & Leader I,30,2,ARMORY 209
+81176,USNA,10,Drill/Laboratory,0,0,NA
+85443,USNA,10,Drill/Laboratory,120,70,DARRIN 318
+81178,USNA,1010,Introduction To Naval Science,25,23,ARMORY 209
+81183,USNA,2030,Naval Leadership & Mgmt I,30,16,ARMORY 209
+81179,USNA,2050,Navigation,25,14,ARMORY 302
+81181,USNA,2070,Naval Ships Systems Ii,37,14,ARMORY 302
+84367,WRIT,1110,Writing In Context,15,15,SAGE 4711
+84897,WRIT,1110,Writing In Context,4,4,SAGE 4711
+84910,WRIT,1110,Writing In Context,15,15,SAGE 4711
+84911,WRIT,1110,Writing In Context,4,4,SAGE 4711
+84545,WRIT,2110,Strategic Writing,15,15,DNASN 130
+84546,WRIT,2110,Strategic Writing,4,2,DNASN 130
+84547,WRIT,2110,Strategic Writing,15,15,DNASN 130
+84898,WRIT,2110,Strategic Writing,4,3,DNASN 130
+83442,WRIT,2310,Creative Writing: Poetry,19,18,SAGE 2701
+83555,WRIT,2320,Creative Writing: Non Fiction,16,8,SAGE 4203
+85237,WRIT,2320,Creative Writing: Non Fiction,3,2,SAGE 4203
+83443,WRIT,2330,Creative Writing: Short Story,4,2,SAGE 3205
+85238,WRIT,2330,Creative Writing: Short Story,15,13,SAGE 3205
+84368,WRIT,2340,Speech Communication,0,15,SAGE 3705
+84369,WRIT,2340,Speech Communication,0,2,SAGE 3705
+85239,WRIT,2340,Speech Communication,0,17,SAGE 3705
+85240,WRIT,2340,Speech Communication,0,3,SAGE 3705
+85436,WRIT,4550,Proposing & Persuading,19,10,DARRIN 236

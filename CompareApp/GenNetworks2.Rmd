@@ -1,0 +1,136 @@
+---
+title: "GenNetworks2"
+author: "Sai Avula"
+date: "8/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r, include = FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(sna)
+library(tsna)
+library(ndtv)
+library(ergm)
+contacts_class <- read_csv("~/TestingSchedule/gen_csvs/CONTACTS_CLASS.csv")
+contacts_test <- read_csv("~/TestingSchedule/gen_csvs/CONTACTS_TEST.csv")
+attends <- read_csv("~/TestingSchedule/gen_csvs/ATTENDS.csv")
+event <- read_csv("~/TestingSchedule/gen_csvs/EVENT.csv")
+location <- read_csv("~/TestingSchedule/gen_csvs/LOCATION.csv")
+person <- read_csv("~/TestingSchedule/gen_csvs/PERSON.csv")
+```
+```{r}
+contacts <- rbind(contacts_class, contacts_test)
+contacts
+```
+```{r}
+set.seed(2001)
+selected_stu <- sample_n(person,1000)
+selected_stu
+links <- contacts[!duplicated(data.frame(t(apply(contacts,1,sort)))),]
+links <- links %>%
+  #filter(PersonID1 %in% selected_stu$PersonID & PersonID2 %in% selected_stu$PersonID & PersonID1 != PersonID2) %>%
+  select(-Type) %>%
+  arrange(Date, StartTime)
+```
+```{r}
+create.network <- function(day,links){
+  day_links <- links %>%
+    filter(Date == day) 
+  start <- day_links %>%
+    gather(key = "link", value = "id", PersonID1, PersonID2) %>%
+    select(StartTime, id) %>%
+    group_by(id) %>%
+    filter(StartTime == min(StartTime)) %>%
+    unique()
+  end <- day_links %>%
+    gather(key = "link", value = "id", PersonID1, PersonID2) %>%
+    select(EndTime, id) %>%
+    group_by(id) %>%
+    filter(EndTime == max(EndTime)) %>%
+    unique()
+  day_selected_stu <- left_join(start,end,by=("id"))[c(1,3,2)]
+  day_selected_stu$numid <- as.numeric(seq(nrow(day_selected_stu)))
+  day_links$head <- match(day_links$PersonID1, day_selected_stu$id)
+  day_links$tail <- match(day_links$PersonID2, day_selected_stu$id)
+  nw <- network(day_links[,c(7,8)], directed = FALSE)
+  epidyn <- networkDynamic(nw, edge.spells = as.matrix(day_links[,c(4,5,7,8)]), vertex.spells = as.matrix(day_selected_stu[,c(1,2,4)]))
+  return(epidyn)
+}
+```
+
+```{r}
+monday <- create.network(1,links)
+monday
+tuesday <- create.network(2,links)
+tuesday
+wednesday <- create.network(3, links)
+wednesday
+thursday <- create.network(4, links)
+thursday
+friday <- create.network(5, links)
+friday
+```
+
+```{r}
+saveRDS(monday, file = "monday_net2.rds")
+saveRDS(tuesday, file = "tuesday_net2.rds")
+saveRDS(wednesday, file = "wednesday_net2.rds")
+saveRDS(thursday, file = "thursday_net2.rds")
+saveRDS(friday, file = "friday_net2.rds")
+```
+```{r}
+plot(tEdgeDissolution(monday),main="Edge dissolution counts for network monday")
+plot(tEdgeDissolution(tuesday),main="Edge dissolution counts for network ")
+tue_edge_diss <- recordPlot()
+plot(tEdgeFormation(tuesday), main="Edge formation counts for network ")
+tue_edge_form <- recordPlot()
+hist(vertexDuration(tuesday), main = "Vertex Duration Frequency")
+tue_vertex_dur <- recordPlot()
+tue_mean_tie_duration <- mean(tiedDuration(tuesday))
+tue_mean_tie_duration
+tue_mean_degree <- mean(degree(as.network(tuesday)))
+tue_mean_degree
+```
+```{r}
+plot(sort(tiedDuration(monday)),type='l',ylim=c(0,25000),
+     main='Sorted Tie Durations',
+     xlab='sorted vertices',ylab='duration that each vertex is connected', col ='black',lwd=4)
+points(sort(tiedDuration(tuesday)),type='l',col='red',lwd=4)
+points(sort(tiedDuration(thursday)),type='l',col='blue',lwd=4)
+legend(250,20000,legend=c('monday','tuesday','thursday'),
+       fill=c('black','red','blue'))
+tue_tie_duration <- recordPlot()
+plot(degree(as.network(tuesday)),tiedDuration(tuesday),xlim=c(0,max(degree(as.network(tuesday)))),ylim=c(0,max((tiedDuration(tuesday)))),main='Degree vs Tie Duration Tuesday')
+plot(degree(as.network(monday)),tiedDuration(monday),xlim=c(0,max(degree(as.network(monday)))),ylim=c(0,max((tiedDuration(monday)))),main='Degree vs Tie Duration Monday')
+tue_degree_tie <- recordPlot()
+
+```
+
+```{r}
+tue_baseTrees<-tReach(tuesday,sample=25)
+as.data.frame(tue_baseTrees)
+boxplot(cbind(baseTrees, tue_baseTrees),
+        main='fwd-reachable set size distribution')
+
+```
+```{r}
+tEdgeDensity(tuesday, agg.unit = 'dyad')
+tEdgeDensity(epidyn, agg.unit = 'dyad')
+```
+```{r}
+coords<-plot(tuesday,
+     displaylabels=TRUE,
+     label.cex=0.8,
+     label.pos=5,
+     vertex.col='white',
+     vertex.cex=3)
+```
+```{r}
+tue_vpath<-tPath(tuesday,v=10,start=1200)
+plot(tue_vpath, displaylabels = FALSE)
+```

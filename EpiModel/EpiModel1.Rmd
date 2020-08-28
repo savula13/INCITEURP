@@ -1,0 +1,114 @@
+---
+title: "TestNet"
+author: "Saipranav Avula"
+date: "7/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(sna)
+library(tsna)
+library(ndtv)
+library(ergm)
+library(htmlwidgets)
+library(EpiModel)
+event <- read.csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/final_data/EVENT.csv", stringsAsFactors=FALSE)
+schedule <- read.csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/final_data/SCHEDULE.csv", stringsAsFactors=FALSE)
+attends <- read.csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/final_data/ATTENDS.csv", stringsAsFactors=FALSE)
+person <- read.csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/final_data/PERSON.csv", stringsAsFactors=FALSE)
+location <- read.csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/final_data/LOCATION.csv", stringsAsFactors=FALSE)
+contacts <- read.csv("~/Documents/GitHub/IDEA-COVID-ContactTracing/final_data/CONTACTS.csv", stringsAsFactors=FALSE)
+```
+```{r}
+param <- param.icm(inf.prob = 0.2, act.rate = 0.25)
+init <- init.icm(s.num = 500, i.num = 1)
+control <- control.icm(type = "SI", nsims = 10, nsteps = 300)
+mod <- icm(param, init, control)
+mod
+summary(mod, at = 50)
+```
+
+```{r}
+set.seed(2001)
+selected_stu <- sample_n(person,225)
+selected_stu
+links <- contacts %>%
+  filter(PersonID1 %in% selected_stu$PersonID & PersonID2 %in% selected_stu$PersonID & PersonID1 != PersonID2) %>%
+  select(-Type) %>%
+  arrange(Date, StartTime)
+links <- links %>%
+  filter(Date == 1) 
+
+start <- links %>%
+  gather(key = "link", value = "id", PersonID1, PersonID2) %>%
+  select(StartTime, id) %>%
+  group_by(id) %>%
+  filter(StartTime == min(StartTime)) %>%
+  unique()
+end <- links %>%
+  gather(key = "link", value = "id", PersonID1, PersonID2) %>%
+  select(EndTime, id) %>%
+  group_by(id) %>%
+  filter(EndTime == max(EndTime)) %>%
+  unique()
+start
+end
+selected_stu <- left_join(start,end,by=("id"))[c(1,3,2)]
+selected_stu$numid <- as.numeric(seq(nrow(selected_stu)))
+selected_stu
+links$head <- match(links$PersonID1, selected_stu$id)
+links$tail <- match(links$PersonID2, selected_stu$id)
+links
+
+
+```
+```{r}
+selected_stu[,c(1,2,4)]
+links[,c(4,5,6,7)]
+nw <- network(links[,c(6,7)], directed = FALSE)
+nw
+epidyn <- networkDynamic(nw, edge.spells = links[,c(4,5,6,7)], vertex.spells = as.matrix(selected_stu[,c(1,2,4)]))
+tErgmStats(epidyn,'~edges+concurrent',
+               start=800,end=1800,time.interval = 100)
+summary(edgeDuration(epidyn))
+```
+```{r}
+formation <- ~edges + concurrent
+target.stats <- c(186,83)
+coef.diss <- dissolution_coefs(dissolution = ~offset(edges), duration = 150)
+coef.diss
+function (nw, formation, target.stats, coef.diss, constraints, 
+    coef.form = NULL, edapprox = TRUE, set.control.ergm, set.control.stergm, 
+    verbose = FALSE) 
+NULL
+est1 <- netest(nw, formation, target.stats, coef.diss, edapprox = TRUE)
+nw
+
+```
+```{r}
+dx <- netdx(est1, nsims = 3, nsteps = 10,
+            nwstats.formula = ~edges + concurrent)
+dx
+param <- param.net(inf.prob = 0.3, act.rate = .7, rec.rate = 0.02)
+status.vector <- c(rbinom(108, 1, 0.1), rep(0, 108))
+status.vector <- ifelse(status.vector == 1, "i", "s")
+init <- init.net(status.vector = status.vector)
+control <- control.net(type = "SI", nsteps = 10, nsims = 3)
+sim1 <- netsim(est1, param, init, control)
+```
+```{r}
+#summary(sim1, at = 9)
+head(as.data.frame(sim1), 10)
+genw <- get_network(sim1, sim = 1)
+genw
+tErgmStats(genw,'~edges+concurrent',
+               start=0,end=10,time.interval = 1)
+plot(sim1)
+plot(sim1, type = "network", col.status = TRUE, at = 9, sims = 1)
+```
